@@ -11,7 +11,7 @@ Creating an app involves a few steps:
 1. Write your app
 1. Run it!
 
-## Prerequesites
+## Prerequisites
 
 Experimental Mobile Blazor Bindings requires the following software:
 
