@@ -3,7 +3,6 @@
 - name: Get Started
   href: get-started.md
 - name: Walkthroughs
-  href: walkthroughs.md
   items:
   - name: Build your first app
     href: walkthroughs/build-first-app.md

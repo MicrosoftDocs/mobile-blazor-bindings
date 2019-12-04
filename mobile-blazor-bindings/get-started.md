@@ -1,3 +1,7 @@
+---
+title: 'Creating an app with Experimental Mobile Blazor Bindings'
+---
+
 # Creating an app with Experimental Mobile Blazor Bindings
 
 Creating an app involves a few steps:
