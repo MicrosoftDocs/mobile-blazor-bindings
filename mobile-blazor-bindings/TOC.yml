@@ -1,2 +1,35 @@
-- name: Index
+- name: Mobile Blazor Bindings
   href: index.md
+- name: Get Started
+  href: get-started.md
+- name: Walkthroughs
+  href: walkthroughs.md
+  items:
+  - name: Build your first app
+    href: walkthroughs/build-first-app.md
+  - name: Hello World
+    href: walkthroughs/hello-world.md
+  - name: Todo App
+    href: walkthroughs/todo-app.md
+  - name: Weather App
+    href: walkthroughs/weather-app.md
+- name: Advanced
+  items:
+  - name: Blazor and Razor references
+    href: advanced/references.md
+  - name: Dependency Injection
+    href: advanced/dependency-injection.md
+  - name: Backend-specific services
+    href: advanced/backend-specific-services.md
+  - name: Wrap Xamarin.Forms components
+    href: advanced/wrap-xamarin-forms-components.md
+  - name: Integrate into existing app
+    href: advanced/integrate-into-existing-app.md
+- name: Contribute
+  items:
+  - name: Build from Source
+    href: contribute/build-from-source.md
+  - name: Roadmap
+    href: contribute/roadmap.md
+  - name: Feedback
+    href: contribute/feedback.md
