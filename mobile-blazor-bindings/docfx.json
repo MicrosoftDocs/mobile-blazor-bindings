@@ -41,7 +41,8 @@
     "globalMetadata": {
       "breadcrumb_path": "/mobile-blazor-bindings/breadcrumb/toc.json",
       "extendBreadcrumb": true,
-      "feedback_system": "None"
+      "feedback_system": "None",
+      "author": "Eilon"
     },
     "fileMetadata": {},
     "template": [],

@@ -1,3 +1,7 @@
+---
+title: 'Experimental Mobile Blazor Bindings'
+---
+
 # Experimental Mobile Blazor Bindings
 
 Experimental Mobile Blazor Bindings is a new framework for building mobile apps using C# and .NET. It brings together familiar web programming patterns for use with native mobile controls to build native mobile apps for Android and iOS. Experimental Mobile Blazor Bindings uses Razor syntax to define UI components and behaviors of an application. The underlying UI components are based on Xamarin.Forms elements.
