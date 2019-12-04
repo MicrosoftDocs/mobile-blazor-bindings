@@ -26,8 +26,10 @@
     href: advanced/integrate-into-existing-app.md
 - name: Contribute
   items:
-  - name: Build from Source
+  - name: Build from source
     href: contribute/build-from-source.md
+  - name: Use nightly builds
+    href: contribute/nightly-builds.md
   - name: Roadmap
     href: contribute/roadmap.md
   - name: Feedback
