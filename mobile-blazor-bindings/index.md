@@ -25,3 +25,4 @@ This is a sample `Hello, World!` component:
 And here it is running in the Android Emulator:
 
 [ ![Hello World running in the Android Emulator](media/index/hello-world.png) ](media/index/hello-world.png#lightbox)
+
