@@ -36,7 +36,7 @@ And when you're ready for more, check out the walkthroughs:
 Then some of the advanced topics:
 
 * [Dependency injection](advanced/dependency-injection.md)
-* [Wrap Xamarin.Forms components](wrap-xamarin-forms-components.md)
+* [Wrap Xamarin.Forms components](advanced/wrap-xamarin-forms-components.md)
 
 And finally, if you'd like to contribute, check out these topics:
 
