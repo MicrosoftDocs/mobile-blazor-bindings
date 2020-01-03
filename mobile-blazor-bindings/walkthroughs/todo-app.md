@@ -10,7 +10,7 @@ To build a simple Todo app, start with the project you've already created in the
 
 1. Delete the `HelloWorld.razor` and `Counter.razor` files.
 
-1. Define a new class to represent a Todo Item: Add a class named `TodoItem` with the following code:
+1. Add a new class file to the project named `TodoItem.cs`. In this file, define a new class to represent a Todo Item. Change the code in this class to the following code:
 
     ```csharp
     namespace FirstMobileBlazorBindingsApp
