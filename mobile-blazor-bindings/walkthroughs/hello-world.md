@@ -30,14 +30,14 @@ This component contains two sections:
 1. The markup that defines the UI elements and their associated properties and event handlers:
 
     ```xml
-    <Frame CornerRadius="10" BackgroundColor="@Color.LightBlue">
+    <Frame CornerRadius="10" BackgroundColor="Color.LightBlue">
 
         <StackLayout Orientation="StackOrientation.Horizontal" HorizontalOptions="LayoutOptions.Center">
 
             <Button Text="Increment" OnClick="IncrementCount" />
 
             <Label Text="@("The button was clicked " + count + " times")"
-                FontAttributes="@FontAttributes.Bold"
+                FontAttributes="FontAttributes.Bold"
                 VerticalTextAlignment="TextAlignment.Center" />
 
         </StackLayout>
@@ -69,7 +69,7 @@ The HelloWorld component contains only markup:
 
 ```xml
 <ContentPage>
-    <StackLayout Margin="@(new Thickness(20))">
+    <StackLayout Margin="new Thickness(20)">
 
         <Label Text="Hello, World!"
                FontSize="40" />

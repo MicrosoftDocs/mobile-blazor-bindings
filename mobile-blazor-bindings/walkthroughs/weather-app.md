@@ -48,21 +48,21 @@ Rather than write the app from scratch, let's take a look at the key components 
 
         ```xml
         <GridCell Row="6">
-            <StackLayout Orientation="@StackOrientation.Horizontal"
-                        HorizontalOptions="@LayoutOptions.Center">
+            <StackLayout Orientation="StackOrientation.Horizontal"
+                        HorizontalOptions="LayoutOptions.Center">
                 <Label Text="I'm feeling too hot/cold!"
-                        VerticalOptions="@LayoutOptions.Center"/>
+                        VerticalOptions="LayoutOptions.Center"/>
                 <Stepper @bind-Value="Temperature"
                             Minimum="0"
                             Maximum="120"
                             Increment="3"
                             Opacity="0.6"
-                            VerticalOptions="@LayoutOptions.Center" />
+                            VerticalOptions="LayoutOptions.Center" />
             </StackLayout>
         </GridCell>
         ```
 
-1. A popular 3rd party component often used in Xamarin.Forms apps is the [`PancakeView` component](https://github.com/sthewissen/Xamarin.Forms.PancakeView). The component has been wrapped to enable it to be used with Blazor syntax in a separate class library project: [Microsoft.MobileBlazorBindings.PancakeView](https://github.com/xamarin/Emblazon/tree/master/samples/MobileBlazorBindingsWeather/Microsoft.MobileBlazorBindings.PancakeView). To learn more about how to wrap Xamarin.Forms components for use with Blazor syntax, please read the [Wrapping Xamarin.Forms components for use with Blazor topic](../advanced/wrap-xamarin-forms-components.md).
+1. A popular 3rd party component often used in Xamarin.Forms apps is the [`PancakeView` component](https://github.com/sthewissen/Xamarin.Forms.PancakeView). The component has been wrapped to enable it to be used with Blazor syntax in a separate class library project: [Microsoft.MobileBlazorBindings.PancakeView](https://github.com/xamarin/Emblazon/tree/master/samples/MobileBlazorBindingsWeather/Microsoft.MobileBlazorBindings.PancakeView). To learn more about how to wrap Xamarin.Forms components for use with Blazor syntax, please read the [Wrapping Xamarin.Forms components for use with Blazor topic](../advanced/custom-components.md).
 
 1. Dependency injection is used in the weather app with a [`WeatherService` type](https://github.com/xamarin/Emblazon/blob/master/samples/MobileBlazorBindingsWeather/MobileBlazorBindingsWeather/WeatherService.cs) that is [registered in the host](https://github.com/xamarin/Emblazon/blob/master/samples/MobileBlazorBindingsWeather/MobileBlazorBindingsWeather/App.cs#L16) and consumed in the [`MainPage.razor` page](https://github.com/xamarin/Emblazon/blob/master/samples/MobileBlazorBindingsWeather/MobileBlazorBindingsWeather/MainPage.razor#L1).
 

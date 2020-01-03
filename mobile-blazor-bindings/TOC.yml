@@ -20,8 +20,8 @@
     href: advanced/dependency-injection.md
   - name: Backend-specific services
     href: advanced/backend-specific-services.md
-  - name: Wrap Xamarin.Forms components
-    href: advanced/wrap-xamarin-forms-components.md
+  - name: Custom components
+    href: advanced/custom-components.md
   - name: Integrate into existing app
     href: advanced/integrate-into-existing-app.md
 - name: Contribute
