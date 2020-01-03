@@ -27,12 +27,12 @@ To build a simple Todo app, start with the project you've already created in the
 
     ```xml
     <ContentPage>
-        <StackLayout Margin="@(new Thickness(20))">
+        <StackLayout Margin="new Thickness(20)">
 
             @* Entry area *@
-            <StackLayout Margin="@(new Thickness(20))" Orientation="@StackOrientation.Horizontal">
-                <Entry @bind-Text="newItemText" HorizontalOptions="@LayoutOptions.FillAndExpand" />
-                <Button Text="Add" OnClick="@OnAddItem" />
+            <StackLayout Margin="new Thickness(20)" Orientation="StackOrientation.Horizontal">
+                <Entry @bind-Text="newItemText" HorizontalOptions="LayoutOptions.FillAndExpand" />
+                <Button Text="Add" OnClick="OnAddItem" />
             </StackLayout>
 
             @* TodoItem area *@
@@ -74,11 +74,11 @@ To build a simple Todo app, start with the project you've already created in the
 1. To show individual todo items, add a Razor Component to the project named `TodoItemDisplay.razor` with the following code:
 
     ```xml
-    <StackLayout Margin="@(new Thickness(20))" Orientation="@StackOrientation.Horizontal">
-        <Switch @bind-IsToggled="@Item.IsDone" />
+    <StackLayout Margin="new Thickness(20)" Orientation="StackOrientation.Horizontal">
+        <Switch @bind-IsToggled="Item.IsDone" />
         <Label Text="@Item.Text"
-            TextDecorations="@(Item.IsDone ? TextDecorations.Strikethrough : TextDecorations.None)"
-            HorizontalOptions="@LayoutOptions.FillAndExpand" />
+            TextDecorations="(Item.IsDone ? TextDecorations.Strikethrough : TextDecorations.None)"
+            HorizontalOptions="LayoutOptions.FillAndExpand" />
     </StackLayout>
 
     @code
@@ -87,7 +87,7 @@ To build a simple Todo app, start with the project you've already created in the
     }
     ```
 
-    This component defines UI to show an individual `TodoItem` object. It accepts a `TodoItem` object via a Blazor component parameter, denoted by the `[Parameter]` attribute. This enables a calling component to pass in a value. This component uses a two-way binding `@bind-IsToggled="@Item.IsDone"` to change the value of the `Item.IsDone` property when the `Switch` component's switch is toggled. When this binding takes place, it will cause the `TextDecorations.Strikethrough` style to be applied to the `Label` component when the item is marked as done.
+    This component defines UI to show an individual `TodoItem` object. It accepts a `TodoItem` object via a Blazor component parameter, denoted by the `[Parameter]` attribute. This enables a calling component to pass in a value. This component uses a two-way binding `@bind-IsToggled="Item.IsDone"` to change the value of the `Item.IsDone` property when the `Switch` component's switch is toggled. When this binding takes place, it will cause the `TextDecorations.Strikethrough` style to be applied to the `Label` component when the item is marked as done.
 
 1. To render the todo list, go to the `TodoApp.razor` file and replace the text `@* TODO: This! *@` with the following code:
 
@@ -96,13 +96,13 @@ To build a simple Todo app, start with the project you've already created in the
         <StackLayout>
             @foreach (var item in items)
             {
-                <TodoItemDisplay Item="@item" />
+                <TodoItemDisplay Item="item" />
             }
         </StackLayout>
     </ScrollView>
     ```
 
-    This code uses a C# `foreach` loop to iterate over the list of todo items and render a `TodoItemDisplay` component for each one, passing in the current item to the component's `Item` property: `Item="@item"`.
+    This code uses a C# `foreach` loop to iterate over the list of todo items and render a `TodoItemDisplay` component for each one, passing in the current item to the component's `Item` property: `Item="item"`.
 
 1. You can now run the app and add todo items and see them rendered in the list below. If you toggle the switch on a given item, the text of that item will have the strikethrough decoration applied:
 

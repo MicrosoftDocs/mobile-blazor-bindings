@@ -48,16 +48,16 @@ Rather than write the app from scratch, let's take a look at the key components 
 
         ```xml
         <GridCell Row="6">
-            <StackLayout Orientation="@StackOrientation.Horizontal"
-                        HorizontalOptions="@LayoutOptions.Center">
+            <StackLayout Orientation="StackOrientation.Horizontal"
+                        HorizontalOptions="LayoutOptions.Center">
                 <Label Text="I'm feeling too hot/cold!"
-                        VerticalOptions="@LayoutOptions.Center"/>
+                        VerticalOptions="LayoutOptions.Center"/>
                 <Stepper @bind-Value="Temperature"
                             Minimum="0"
                             Maximum="120"
                             Increment="3"
                             Opacity="0.6"
-                            VerticalOptions="@LayoutOptions.Center" />
+                            VerticalOptions="LayoutOptions.Center" />
             </StackLayout>
         </GridCell>
         ```
