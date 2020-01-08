@@ -24,6 +24,8 @@
     href: advanced/custom-components.md
   - name: Integrate into existing app
     href: advanced/integrate-into-existing-app.md
+  - name: Architecture
+    href: advanced/architecture.md
 - name: Contribute
   items:
   - name: Build from source

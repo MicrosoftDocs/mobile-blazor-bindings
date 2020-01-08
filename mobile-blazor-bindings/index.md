@@ -4,22 +4,28 @@ title: 'Experimental Mobile Blazor Bindings'
 
 # Experimental Mobile Blazor Bindings
 
-Experimental Mobile Blazor Bindings is a new framework for building mobile apps using C# and .NET. It brings together familiar web programming patterns for use with native mobile controls to build native mobile apps for Android and iOS. Experimental Mobile Blazor Bindings uses Razor syntax to define UI components and behaviors of an application. The underlying UI components are based on Xamarin.Forms elements.
+Experimental Mobile Blazor Bindings enable developers to build native mobile apps using C# and .NET for iOS and Android using familiar web programming patterns. Experimental Mobile Blazor Bindings uses Razor syntax to define UI components and behaviors of an application. The underlying UI components are based on Xamarin.Forms native UI components. 
 
 Blazor runs on [.NET Standard 2.0](https://docs.microsoft.com/dotnet/standard/net-standard) so you can share your .NET code with most other .NET apps.
 
 This is a sample `Hello, World!` component:
 
 ```xml
-<ContentPage>
-    <StackLayout>
+<StackLayout>
+    <Label FontSize="30"
+           Text="@("You pressed " + count + " times")" />
+    <Button Text="+1"
+            OnClick="@HandleClick" />
+</StackLayout>
 
-        <Label Text="Hello, World!"
-               FontSize="20"
-               HorizontalTextAlignment="TextAlignment.Center" />
+@code {
+    int count;
 
-    </StackLayout>
-</ContentPage>
+    void HandleClick()
+    {
+        count++;
+    }
+}
 ```
 
 And here it is running in the Android Emulator:

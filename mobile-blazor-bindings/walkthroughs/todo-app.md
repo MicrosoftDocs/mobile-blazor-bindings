@@ -4,13 +4,13 @@ title: 'Walkthrough: Todo App'
 
 # Todo App
 
-The completed Todo app sample is available [here](https://github.com/xamarin/Emblazon/tree/master/samples/MobileBlazorBindingsTodoSample). The sample uses dependency injection, platform-specific services, a SQLite database for storage, modal dialogs, custom images, and many more features. This sample shows to to render a dynamically growing list of `Todo` items.
+The completed Todo app sample is available [here](https://github.com/xamarin/Emblazon/tree/master/samples/MobileBlazorBindingsTodoSample). The sample uses dependency injection, platform-specific services, a SQLite database for storage, modal dialogs, custom images, and many more features. This sample shows how to render a dynamically growing list of `Todo` items.
 
 To build a simple Todo app, start with the project you've already created in the [Build your first app](build-first-app.md) section. All the changes will be in the `FirstMobileBlazorBindingsApp` project.
 
 1. Delete the `HelloWorld.razor` and `Counter.razor` files.
 
-1. Define a new class to represent a Todo Item: Add a class named `TodoItem` with the following code:
+1. Add a new class file to the project named `TodoItem.cs`. In this file, define a new class to represent a Todo Item. Change the code in this class to the following code:
 
     ```csharp
     namespace FirstMobileBlazorBindingsApp
