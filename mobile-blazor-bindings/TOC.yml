@@ -12,6 +12,10 @@
     href: walkthroughs/todo-app.md
   - name: Weather App
     href: walkthroughs/weather-app.md
+- name: User Interface
+  items:
+  - name: Components reference
+    href: ui/components-references.md
 - name: Advanced
   items:
   - name: Blazor and Razor references
