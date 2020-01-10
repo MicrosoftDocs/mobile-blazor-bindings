@@ -2,6 +2,8 @@
 title: 'Custom components'
 ---
 
+[!INCLUDE [experiment-warning](../includes/experiment-warning.md)]
+
 # Custom components
 
 You can write reusable custom components either using Blazor components or by wrapping existing Xamarin.Forms components.
@@ -21,6 +23,6 @@ To make a Xamarin.Forms element available in Blazor markup you need to implement
 1. A component representing the markup that the developer will use in the `.razor` file. This type will need to derive from `NativeControlComponentBase` or one of its derived classes.
 1. An element handler representing the UI component that will be created when the component is used. This type will either implement the `IXamarinFormsElementHandler` interface or derive from one of the existing handler types that implement the interface.
 
-An example that shows how to wrap the popular [`PancakeView` component](https://github.com/sthewissen/Xamarin.Forms.PancakeView) is available [here](https://github.com/xamarin/Emblazon/tree/master/samples/MobileBlazorBindingsWeather/Microsoft.MobileBlazorBindings.PancakeView).
+An example that shows how to wrap the popular [`PancakeView` component](https://github.com/sthewissen/Xamarin.Forms.PancakeView) is available [here](https://github.com/xamarin/MobileBlazorBindings/tree/master/samples/MobileBlazorBindingsWeather/Microsoft.MobileBlazorBindings.PancakeView).
 
-The component uses a static constructor to register the component mapping to the element handler, as seen [here](https://github.com/xamarin/Emblazon/blob/master/samples/MobileBlazorBindingsWeather/Microsoft.MobileBlazorBindings.PancakeView/Elements/PancakeView.cs#L11-L15).
+The component uses a static constructor to register the component mapping to the element handler, as seen [here](https://github.com/xamarin/MobileBlazorBindings/blob/master/samples/MobileBlazorBindingsWeather/Microsoft.MobileBlazorBindings.PancakeView/Elements/PancakeView.cs#L11-L15).

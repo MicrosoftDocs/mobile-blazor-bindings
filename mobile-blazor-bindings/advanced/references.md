@@ -2,6 +2,8 @@
 title: 'Blazor and Razor references'
 ---
 
+[!INCLUDE [experiment-warning](../includes/experiment-warning.md)]
+
 # Blazor and Razor references
 
 Please note that some of the documentation is web/HTML/ASP.NET-specific, and might not apply to Experimental Mobile Blazor Bindings.
