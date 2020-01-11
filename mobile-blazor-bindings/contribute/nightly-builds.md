@@ -2,6 +2,8 @@
 title: 'Use nightly builds'
 ---
 
+[!INCLUDE [experiment-warning](../includes/experiment-warning.md)]
+
 # Use nightly builds
 
 ## NuGet.config file for nightly feed

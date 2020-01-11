@@ -2,6 +2,8 @@
 title: 'Walkthrough: Weather App'
 ---
 
+[!INCLUDE [experiment-warning](../includes/experiment-warning.md)]
+
 # Weather App
 
 The completed Weather app sample is available [here](https://github.com/xamarin/MobileBlazorBindings/tree/master/samples/MobileBlazorBindingsWeather). The sample uses a 3rd party Xamarin.Forms component, the `Grid` component, two-way bindings, component initialization logic, dependency injection, CSS styles, and many more features.
