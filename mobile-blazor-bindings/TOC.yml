@@ -15,7 +15,7 @@
 - name: User Interface
   items:
   - name: Components reference
-    href: ui/components-references.md
+    href: ui/components-reference.md
 - name: Advanced
   items:
   - name: Blazor and Razor references

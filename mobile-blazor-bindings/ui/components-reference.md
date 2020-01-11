@@ -8,7 +8,7 @@ title: 'Components Reference - Mobile Blazor Bindings'
 
 ## Overview
 
-Applications built using Mobile Blazor Bindings are constructed using UI components. UI components can come from the built-in libraries, 3rd parties, or you can write your own. To author custom components, refer to the [Custom Components](custom-components.md) topic.
+Applications built using Mobile Blazor Bindings are constructed using UI components. UI components can come from the built-in libraries, 3rd parties, or you can write your own. To author custom components, refer to the [Custom Components](../advanced/custom-components.md) topic.
 
 UI components are used by referencing them with standard Razor syntax. For example:
 
@@ -20,7 +20,7 @@ UI components are used by referencing them with standard Razor syntax. For examp
 </SomeComponent>>
 ```
 
-To learn more about Blazor and Razor syntax, please refer to the [References](references.md) topic.
+To learn more about Blazor and Razor syntax, please refer to the [References](../advanced/references.md) topic.
 
 ## UI component categories
 
@@ -67,4 +67,4 @@ The built-in components can be divided into several broad categories:
 
 ## More information
 
-Because the built-in UI components are based on Xamarin.Forms controls, you can refer to the [Xamarin.Forms Controls Reference](https://docs.microsoft.com/en-us/xamarin/xamarin-forms/user-interface/controls/) to learn more about how they work and their properties and events.
+Because the built-in UI components are based on Xamarin.Forms controls, you can refer to the [Xamarin.Forms Controls Reference](https://docs.microsoft.com/xamarin/xamarin-forms/user-interface/controls/) to learn more about how they work and their properties and events.
