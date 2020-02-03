@@ -70,7 +70,7 @@ This component contains two sections:
 The HelloWorld component contains only markup:
 
 ```xml
-<ContentPage>
+<ContentView>
     <StackLayout Margin="new Thickness(20)">
 
         <Label Text="Hello, World!"
@@ -79,7 +79,7 @@ The HelloWorld component contains only markup:
         <Counter />
 
     </StackLayout>
-</ContentPage>
+</ContentView>
 ```
 
 Note that the `Counter` component is referenced in this component by referencing it as a tag `<Counter />`.
