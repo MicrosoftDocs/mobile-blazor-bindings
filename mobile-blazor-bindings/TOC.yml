@@ -26,6 +26,8 @@
     href: advanced/backend-specific-services.md
   - name: Custom components
     href: advanced/custom-components.md
+  - name: Xamarin.Essentials
+    href: advanced/xamarin-essentials.md
   - name: Integrate into existing app
     href: advanced/integrate-into-existing-app.md
   - name: Architecture
