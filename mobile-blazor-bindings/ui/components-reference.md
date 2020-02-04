@@ -48,11 +48,16 @@ The built-in components can be divided into several broad categories:
    * StackLayout
 
 1. View components
-   * Button
    * ActivityIndicator
+   * BoxView
+   * Button
+   * CheckBox
    * Image
+   * ImageButton
    * Entry
    * Label
+   * ProgressBar
+   * Slider
    * Stepper
    * Switch
 
