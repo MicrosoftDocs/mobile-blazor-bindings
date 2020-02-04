@@ -41,8 +41,9 @@ And when you're ready for more, check out the walkthroughs:
 
 Then some of the advanced topics:
 
-* [Dependency injection](advanced/dependency-injection.md)
-* [Writing custom components](advanced/custom-components.md)
+* [Dependency injection](advanced/dependency-injection.md) - register and share services between parts of the application
+* [Writing custom components](advanced/custom-components.md) - build reusable components in your apps
+* [Xamarin.Essentials](advanced/xamarin-essentials.md) - provides developers with cross-platform APIs for their mobile applications
 
 And finally, if you'd like to contribute, check out these topics:
 
