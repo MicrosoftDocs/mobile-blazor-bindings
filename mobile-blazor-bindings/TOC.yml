@@ -34,6 +34,10 @@
     href: advanced/architecture.md
   - name: Uninstall
     href: advanced/uninstall.md
+- name: Migration
+  items:
+  - name: From Preview 1 to Preview 2
+    href: migrate/preview1-to-preview2.md
 - name: Contribute
   items:
   - name: Build from source
