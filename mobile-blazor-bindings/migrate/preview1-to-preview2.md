@@ -8,9 +8,9 @@ title: 'Migrate Mobile Blazor Bindings From Preview 1 to Preview 2'
 
 This article explains how to update an existing Mobile Blazor Bindings Preview 1 project to Mobile Blazor Bindings Preview 2.
 
-## Update NuGet packages to 0.2.39-preview
+## Update NuGet packages to 0.2.42-preview
 
-In each project file (`.csproj`) update the `Microsoft.MobileBlazorBindings` package reference's `Version` attribute to `0.2.39-preview`.
+In each project file (`.csproj`) update the `Microsoft.MobileBlazorBindings` package reference's `Version` attribute to `0.2.42-preview`.
 
 ## Update App.cs to use new host and set MainPage
 
