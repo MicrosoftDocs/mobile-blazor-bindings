@@ -28,7 +28,7 @@ To build a simple Todo app, start with the project you've already created in the
 1. Add a new Razor component to the project by right-clicking on the project, selecting `Add` / `New Item`, select `Razor component`, and naming it `TodoApp.razor`. Replace the code in the file with the following code:
 
     ```xml
-    <ContentPage>
+    <ContentView>
         <StackLayout Margin="new Thickness(20)">
 
             @* Entry area *@
@@ -42,7 +42,7 @@ To build a simple Todo app, start with the project you've already created in the
             @* TODO: This! *@
 
         </StackLayout>
-    </ContentPage>
+    </ContentView>
 
     @code
     {
@@ -68,7 +68,7 @@ To build a simple Todo app, start with the project you've already created in the
 1. Change the code in `App.cs` to reference the new `TodoApp` component instead of `HelloWorld`:
 
     ```csharp
-    host.AddComponent<TodoApp>(parent: this);
+    host.AddComponent<TodoApp>(parent: MainPage);
     ```
 
 1. If you run the app, you'll see an Entry textbox and an Add button. If you type in text and tap the Add button the text will simply disappear. The `Entry` component has a two-way binding to the `newItemText` field by using the Blazor syntax `@bind-Text="newItemText"`. When the `Text` property of the `Entry` changes, the `newItemText` field will be updated, and when the `newItemText` field is updated the `Entry` component's `Text` property will be updated for the next re-render. However, this app is still not useful: you can add items to a todo list but you can't see the todo list itself!
