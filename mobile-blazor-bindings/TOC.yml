@@ -16,6 +16,8 @@
   items:
   - name: Components reference
     href: ui/components-reference.md
+  - name: CSS styles
+    href: ui/css-styles.md
 - name: Advanced
   items:
   - name: Blazor and Razor references
