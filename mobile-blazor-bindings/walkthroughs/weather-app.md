@@ -14,7 +14,7 @@ The completed app looks like this:
 
 Rather than write the app from scratch, let's take a look at the key components in this sample application.
 
-1. `Grid` component. The entire UI of the Weather App is contained in the [`MainPage` component](https://github.com/xamarin/MobileBlazorBindings/blob/master/samples/MobileBlazorBindingsWeather/MobileBlazorBindingsWeather/MainPage.razor), with its main layout established by a `Grid` component.
+1. `Grid` component. The entire UI of the Weather App is contained in the [`MainPage` component](https://github.com/xamarin/MobileBlazorBindings/blob/master/samples/MobileBlazorBindingsWeather/MobileBlazorBindingsWeather/WeatherApp.razor), with its main layout established by a `Grid` component.
 
    * The `Grid` component has two main sections to establish its structure:
 
@@ -82,4 +82,4 @@ Rather than write the app from scratch, let's take a look at the key components 
 
    To learn more, including how to do async initialization, check out the [Blazor lifecycle methods documentation](https://docs.microsoft.com/aspnet/core/blazor/lifecycle?view=aspnetcore-3.0).
 
-1. CSS styles are used to apply common properties by element type or by CSS class name. A [CSS file](https://github.com/xamarin/MobileBlazorBindings/blob/master/samples/MobileBlazorBindingsWeather/MobileBlazorBindingsWeather/WeatherStyles.css) is included as an embedded resource in the shared project (this is the default setting for CSS files). A reference to allowed CSS properties is available [here](https://docs.microsoft.com/xamarin/xamarin-forms/user-interface/styles/css/).
+1. CSS styles are used to apply common properties by element type or by CSS class name. A [CSS file](https://github.com/xamarin/MobileBlazorBindings/blob/master/samples/MobileBlazorBindingsWeather/MobileBlazorBindingsWeather/WeatherStyles.css) is included as an embedded resource in the shared project (this is the default setting for CSS files). Learn more about using CSS in Mobile Blazor Bindings in the [CSS Styles topic](../ui/css-styles.md).
