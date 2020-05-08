@@ -1,5 +1,5 @@
 ---
-title: 'Uninstall Mobile Blazor Bindings'
+title: 'Uninstall Mobile Blazor Bindings - Mobile Blazor Bindings'
 ---
 
 [!INCLUDE [experiment-warning](../includes/experiment-warning.md)]

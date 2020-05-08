@@ -1,5 +1,5 @@
 ---
-title: 'Use nightly builds'
+title: 'Use nightly builds - Mobile Blazor Bindings'
 ---
 
 [!INCLUDE [experiment-warning](../includes/experiment-warning.md)]

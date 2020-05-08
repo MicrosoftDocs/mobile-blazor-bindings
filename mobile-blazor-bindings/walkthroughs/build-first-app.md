@@ -1,5 +1,5 @@
 ---
-title: 'Walkthrough: Build your first app with Experimental Mobile Blazor Bindings'
+title: 'Walkthrough: Build your first app with Mobile Blazor Bindings - Mobile Blazor Bindings'
 ---
 
 [!INCLUDE [experiment-warning](../includes/experiment-warning.md)]

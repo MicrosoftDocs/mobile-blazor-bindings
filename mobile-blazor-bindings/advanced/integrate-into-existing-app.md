@@ -1,5 +1,5 @@
 ---
-title: 'Integrate into existing app'
+title: 'Integrate into existing app - Mobile Blazor Bindings'
 ---
 
 [!INCLUDE [experiment-warning](../includes/experiment-warning.md)]

@@ -1,5 +1,5 @@
 ---
-title: 'Walkthrough: Todo App'
+title: 'Walkthrough: Todo App - Mobile Blazor Bindings'
 ---
 
 [!INCLUDE [experiment-warning](../includes/experiment-warning.md)]
