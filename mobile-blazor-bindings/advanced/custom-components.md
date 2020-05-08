@@ -1,5 +1,5 @@
 ---
-title: 'Custom components'
+title: 'Custom components - Mobile Blazor Bindings'
 ---
 
 [!INCLUDE [experiment-warning](../includes/experiment-warning.md)]

@@ -1,5 +1,5 @@
 ---
-title: 'Dependency Injection'
+title: 'Dependency Injection - Mobile Blazor Bindings'
 ---
 
 [!INCLUDE [experiment-warning](../includes/experiment-warning.md)]

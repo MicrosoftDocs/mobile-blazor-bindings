@@ -1,5 +1,5 @@
 ---
-title: 'Architecture of Mobile Blazor Bindings'
+title: 'Architecture of Mobile Blazor Bindings - Mobile Blazor Bindings'
 ---
 
 [!INCLUDE [experiment-warning](../includes/experiment-warning.md)]

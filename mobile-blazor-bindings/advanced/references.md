@@ -1,5 +1,5 @@
 ---
-title: 'Blazor and Razor references'
+title: 'Blazor and Razor references - Mobile Blazor Bindings'
 ---
 
 [!INCLUDE [experiment-warning](../includes/experiment-warning.md)]

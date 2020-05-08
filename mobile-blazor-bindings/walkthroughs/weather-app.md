@@ -1,5 +1,5 @@
 ---
-title: 'Walkthrough: Weather App'
+title: 'Walkthrough: Weather App - Mobile Blazor Bindings'
 ---
 
 [!INCLUDE [experiment-warning](../includes/experiment-warning.md)]

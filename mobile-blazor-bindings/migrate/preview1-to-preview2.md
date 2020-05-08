@@ -1,5 +1,5 @@
 ---
-title: 'Migrate Mobile Blazor Bindings From Preview 1 to Preview 2'
+title: 'Migrate Mobile Blazor Bindings From Preview 1 to Preview 2 - Mobile Blazor Bindings'
 ---
 
 [!INCLUDE [experiment-warning](../includes/experiment-warning.md)]

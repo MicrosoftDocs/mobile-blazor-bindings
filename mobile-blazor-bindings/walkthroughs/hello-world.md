@@ -1,5 +1,5 @@
 ---
-title: 'Walkthrough: Hello World'
+title: 'Walkthrough: Hello World - Mobile Blazor Bindings'
 ---
 
 [!INCLUDE [experiment-warning](../includes/experiment-warning.md)]

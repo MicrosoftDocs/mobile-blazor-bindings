@@ -1,5 +1,5 @@
 ---
-title: 'Xamarin.Essentials'
+title: 'Xamarin.Essentials - Mobile Blazor Bindings'
 ---
 
 [!INCLUDE [experiment-warning](../includes/experiment-warning.md)]
