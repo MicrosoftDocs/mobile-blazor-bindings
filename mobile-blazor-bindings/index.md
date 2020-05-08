@@ -4,7 +4,7 @@ title: 'Experimental Mobile Blazor Bindings'
 
 # Experimental Mobile Blazor Bindings
 
-Experimental Mobile Blazor Bindings enable developers to build native mobile apps using C# and .NET for iOS and Android using familiar web programming patterns. Experimental Mobile Blazor Bindings uses Razor syntax to define UI components and behaviors of an application. The underlying UI components are based on Xamarin.Forms native UI components. 
+Experimental Mobile Blazor Bindings enable developers to build native mobile apps using C# and .NET for iOS and Android using familiar web programming patterns. Experimental Mobile Blazor Bindings uses Razor syntax to define UI components and behaviors of an application. The underlying UI components are based on Xamarin.Forms native UI components.
 
 Blazor runs on [.NET Standard 2.0](https://docs.microsoft.com/dotnet/standard/net-standard) so you can share your .NET code with most other .NET apps.
 

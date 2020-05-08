@@ -38,7 +38,8 @@ In the shared project edit the `App.cs` file to have this constructor code:
 ...
 ```
 
-Note: If you have made other modifications or renamed content, please adjust the code as appropriate. The critical changes are to use the new `MobileBlazorBindingsHost`, setting the `MainPage` to a `ContentPage`, and passing in the `parent: MainPage` parameter.
+> [!NOTE]
+   > If you have made other modifications or renamed content, please adjust the code as appropriate. The critical changes are to use the new `MobileBlazorBindingsHost`, setting the `MainPage` to a `ContentPage`, and passing in the `parent: MainPage` parameter.
 
 ## Update main .razor file to use a ContentView
 
