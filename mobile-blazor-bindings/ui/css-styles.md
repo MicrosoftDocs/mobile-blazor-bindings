@@ -35,6 +35,9 @@ To add CSS to a Mobile Blazor Bindings project:
     <StyleSheet Resource="folder/MyStyles.css" Assembly="GetType().Assembly"></StyleSheet>
     ```
 
+> [!NOTE]
+> CSS support requires referencing Xamarin.Forms 4.5 or newer. To update this reference, manage the NuGet packages for the solution and ensure that the solution is using a version of Xamarin.Forms that is 4.5 or newer. Future versions of Mobile Blazor Bindings will include this version by default.
+
 ## Applying CSS to components
 
 CSS styles are declared in the CSS file using standard CSS syntax. Styles are specified using selectors, which allow applying styles based on element type, base class, name, class attribute, and several other means (see below for Xamarin.Forms reference).
