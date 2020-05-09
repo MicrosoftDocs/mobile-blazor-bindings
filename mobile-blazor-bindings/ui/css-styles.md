@@ -78,7 +78,7 @@ Because the built-in UI components are based on Xamarin.Forms controls, refer to
 
 ### Set Build Action to Embedded resource
 
-When adding a new CSS file in Visual Studio, the CSS file should automatically have its `Build Action` set to `Embedded resource` to ensure it is included in the built project. If it isn't, right-click on the CSS file, select Properties, and manually set `Build Action` set to `Embedded resource`.
+When adding a new CSS file in Visual Studio, the CSS file should automatically have its `Build Action` set to `Embedded resource` to ensure it is included in the built project. If it isn't, right-click on the CSS file, select Properties, and set `Build Action` to `Embedded resource`.
 
 ### Use correct path syntax for CSS in sub-folders
 
