@@ -42,6 +42,8 @@
   items:
   - name: From Preview 1 to Preview 2
     href: migrate/preview1-to-preview2.md
+  - name: From Preview 2 to Preview 3
+    href: migrate/preview2-to-preview3.md
 - name: Contribute
   items:
   - name: Build from source
