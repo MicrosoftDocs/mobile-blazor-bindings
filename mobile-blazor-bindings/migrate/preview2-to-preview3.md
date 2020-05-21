@@ -14,7 +14,7 @@ For more information see the [announcement blog](https://aka.ms/mbb-preview3-blo
 
 The following NuGet package references need to be updated in all of your solution's projects:
 
-1. `Microsoft.MobileBlazorBindings` version is 0.3.TODO
+1. `Microsoft.MobileBlazorBindings` version is 0.3.26-preview
 1. `Xamarin.Forms` version is 4.5.0.356 or greater
 1. `Xamarin.Essentials` version is 1.5.0 or greater (if used in the project)
 
@@ -27,6 +27,8 @@ To update the package versions:
 1. Select all applicable packages to update, and ensure that the selected versions match the updated versions listed earlier
 1. Click "Update" and go through the proceeding dialogs. This operation can take a few minutes because it will download several NuGet packages and update all the relevant projects.
 1. It is recommended to Save All to ensure that all changes to CSPROJ files are committed to disk
+
+You should now be able to build and run your project on this preview.
 
 ## Breaking change: 'class' and 'StyleClass' properties use spaces as separators
 
