@@ -12,7 +12,7 @@ The easiest way to get started with Experimental Mobile Blazor Bindings is to cr
 1. Install the Experimental Mobile Blazor Bindings project templates by running this command:
 
     ```shell
-    dotnet new -i Microsoft.MobileBlazorBindings.Templates::0.3.TODO
+    dotnet new -i Microsoft.MobileBlazorBindings.Templates::0.3.26-preview
     ```
 
 1. Create projects using the project templates by running this command:
