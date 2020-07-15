@@ -48,3 +48,6 @@ Incorporating dependency injection into an application involves a few steps:
          ```
 
          Learn more about the `@inject` directive in the [Blazor documentation](https://docs.microsoft.com/aspnet/core/blazor/dependency-injection?view=aspnetcore-3.0).
+
+> [!TIP]
+> In hybrid apps, services are shared between the native UI of the app, the web part of the app, and everywhere else. There are no special steps required to share services and state between areas of hybrid apps.
