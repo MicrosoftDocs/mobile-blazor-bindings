@@ -32,7 +32,7 @@ And here it is running in the Android Emulator:
 
 [ ![Simple native app running in the Android Emulator](media/index/hello-world-inline.png) ](media/index/hello-world-expanded.png#lightbox)
 
-And you can build hybrid apps that mix native UI and HTML UI in the same screen. all sharing the same app logic and state:
+And you can build hybrid apps that mix native UI and HTML UI in the same screen, all sharing the same app logic and state:
 
 * `/Main.razor`: (native UI)
 
@@ -100,7 +100,6 @@ And when you're ready for more, check out the walkthroughs:
 
 * [Todo App](walkthroughs/todo-app.md)
 * [Weather App](walkthroughs/weather-app.md)
-* TODO HYBRID
 
 Then some of the advanced topics:
 

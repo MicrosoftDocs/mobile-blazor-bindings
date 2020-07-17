@@ -14,9 +14,9 @@ For more information see the [announcement blog](https://aka.ms/mbb-preview4-blo
 
 The following NuGet package references need to be updated in all of your solution's projects:
 
-1. `Microsoft.MobileBlazorBindings` version is 0.4.TODO
-1. `Xamarin.Forms` version is TODO or greater
-1. `Xamarin.Essentials` version is TODO or greater (if used in the project)
+1. `Microsoft.MobileBlazorBindings` version is `0.4.74-preview`
+1. `Xamarin.Forms` version is `4.7.0.968` or greater
+1. `Xamarin.Essentials` version is `1.5.3.2` or greater (if used in the project)
 
 To update the package versions:
 
