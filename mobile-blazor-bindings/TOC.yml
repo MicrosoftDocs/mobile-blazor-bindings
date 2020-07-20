@@ -12,6 +12,10 @@
     href: walkthroughs/todo-app.md
   - name: Weather App
     href: walkthroughs/weather-app.md
+  - name: Build your first hybrid app
+    href: walkthroughs/build-first-hybrid-app.md
+  - name: Hybrid Hello World
+    href: walkthroughs/hybrid-hello-world.md
 - name: User Interface
   items:
   - name: Components reference
@@ -34,16 +38,24 @@
     href: advanced/xamarin-essentials.md
   - name: Integrate into existing app
     href: advanced/integrate-into-existing-app.md
+  - name: Debug hybrid apps
+    href: advanced/debug-hybrid-apps.md
   - name: Architecture
     href: advanced/architecture.md
+  - name: Advanced template options
+    href: advanced/template-options.md
   - name: Uninstall
     href: advanced/uninstall.md
+  - name: Troubleshooting
+    href: advanced/troubleshooting.md
 - name: Migration
   items:
   - name: From Preview 1 to Preview 2
     href: migrate/preview1-to-preview2.md
   - name: From Preview 2 to Preview 3
     href: migrate/preview2-to-preview3.md
+  - name: From Preview 3 to Preview 4
+    href: migrate/preview3-to-preview4.md
 - name: Contribute
   items:
   - name: Build from source

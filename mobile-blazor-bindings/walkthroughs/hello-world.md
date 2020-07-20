@@ -24,7 +24,6 @@ These are the files in the shared project:
 
 Let's dive into the two Blazor Components to see how they work.
 
-
 ## Counter Blazor Component
 
 This component contains two sections:
