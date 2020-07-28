@@ -41,7 +41,7 @@ Incorporating dependency injection into an application involves a few steps:
 
       1. Constructor injection in custom types also registered in the dependency injection container. To consume a service in this way, add a constructor parameter to your class that uses the service, and when that class is retrieved from the DI container, it will have its parameters populated with other services from the DI container.
 
-      1. Consuming services in `.razor` files is done with the `@inject` directive, which is used in the [`MainPage.razor` file](https://github.com/xamarin/MobileBlazorBindings/blob/master/samples/MobileBlazorBindingsWeather/MobileBlazorBindingsWeather/MainPage.razor#L1):
+      1. Consuming services in `.razor` files is done with the `@inject` directive, which is used in the [`MainPage.razor` file](https://github.com/xamarin/MobileBlazorBindings/blob/master/samples/MobileBlazorBindingsWeather/MobileBlazorBindingsWeather/WeatherApp.razor#L1):
 
          ```c#
          @inject WeatherService WeatherService

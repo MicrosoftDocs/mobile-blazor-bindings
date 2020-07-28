@@ -14,7 +14,7 @@ The completed app looks like this:
 
 Rather than write the app from scratch, let's take a look at the key components in this sample application.
 
-1. `Grid` component. The entire UI of the Weather App is contained in the [`MainPage` component](https://github.com/xamarin/MobileBlazorBindings/blob/master/samples/MobileBlazorBindingsWeather/MobileBlazorBindingsWeather/WeatherApp.razor), with its main layout established by a `Grid` component.
+1. `Grid` component. The entire UI of the Weather App is contained in the [`WeatherApp` component](https://github.com/xamarin/MobileBlazorBindings/blob/master/samples/MobileBlazorBindingsWeather/MobileBlazorBindingsWeather/WeatherApp.razor), with its main layout established by a `Grid` component.
 
    * The `Grid` component has two main sections to establish its structure:
 
@@ -70,7 +70,7 @@ Rather than write the app from scratch, let's take a look at the key components 
 
    * To learn more, read the [dependency injection topic](../advanced/dependency-injection.md).
 
-1. Component initialization enables running initialization code when a component is run. The weather app uses this to load the initial weather data when the app starts by overriding the [`OnInitialized` method](https://github.com/xamarin/MobileBlazorBindings/blob/master/samples/MobileBlazorBindingsWeather/MobileBlazorBindingsWeather/MainPage.razor#L140-L144):
+1. Component initialization enables running initialization code when a component is run. The weather app uses this to load the initial weather data when the app starts by overriding the [`OnInitialized` method](https://github.com/xamarin/MobileBlazorBindings/blob/master/samples/MobileBlazorBindingsWeather/MobileBlazorBindingsWeather/WeatherApp.razor#L140-L144):
 
     ```c#
     protected override void OnInitialized()
