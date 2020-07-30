@@ -16,6 +16,8 @@
     href: walkthroughs/build-first-hybrid-app.md
   - name: Hybrid Hello World
     href: walkthroughs/hybrid-hello-world.md
+  - name: Shell Navigation Manager
+    href: walkthroughs/shell-navigation-manager.md
 - name: User Interface
   items:
   - name: Components reference
