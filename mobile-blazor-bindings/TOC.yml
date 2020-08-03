@@ -22,6 +22,8 @@
     href: ui/components-reference.md
   - name: CSS styles
     href: ui/css-styles.md
+  - name: Grid layout
+    href: ui/grid-layout.md
 - name: Advanced
   items:
   - name: Blazor and Razor references
