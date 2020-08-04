@@ -1,5 +1,5 @@
 ---
-title: 'Navigating with Shell Navigation Manager'
+title: 'Navigating with Shell Navigation Manager - Mobile Blazor Bindings'
 author: lachlanwgordon
 ---
 
