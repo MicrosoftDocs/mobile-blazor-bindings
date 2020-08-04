@@ -16,7 +16,7 @@ Internally it is implemented using Xamarin Forms Shell URI Navigation. Shell has
 
 ![Demonstration of Shell Navigation in the Xaminals demom shown on an iPhone.](media/shell-navigation/shell.gif)
 
-For more details on Shell, check out the [Xamarin Forms documentation](https://docs.microsoft.com/en-us/xamarin/xamarin-forms/app-fundamentals/shell/). Details of routing in Blazor are in the [ASP.NET Core documentation](https://docs.microsoft.com/en-us/aspnet/core/blazor/fundamentals/routing?view=aspnetcore-3.1)
+For more details on Shell, check out the [Xamarin Forms documentation](https://docs.microsoft.com/xamarin/xamarin-forms/app-fundamentals/shell/). Details of routing in Blazor are in the [ASP.NET Core documentation](https://docs.microsoft.com/aspnet/core/blazor/fundamentals/routing?view=aspnetcore-3.1)
 
 For a sample of ShellNavigationManager see the [Xaminals sample in the Mobile Blazor Bindings repo](https://github.com/xamarin/MobileBlazorBindings/tree/master/samples/MobileBlazorBindingsXaminals).
 
@@ -141,4 +141,4 @@ NavigationManager.NavigateToAsync("contact/Dunston");
 
 ![Shell navigation with name parameter using a text entry.](media/shell-navigation/shell-navigation-parameter.gif)
 
-Navigation parameters can be any of various .Net types that can easily be turned into strings including ints, strings, Guids and Dates. Full details of supported types are available in the [Blazor Routing documentation](https://docs.microsoft.com/en-us/aspnet/core/blazor/fundamentals/routing?view=aspnetcore-3.1#route-constraints)
+Navigation parameters can be any of various .Net types that can easily be turned into strings including ints, strings, Guids and Dates. Full details of supported types are available in the [Blazor Routing documentation](https://docs.microsoft.com/aspnet/core/blazor/fundamentals/routing?view=aspnetcore-3.1#route-constraints)
