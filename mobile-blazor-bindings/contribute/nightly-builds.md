@@ -14,7 +14,7 @@ If you want to use the most recent build of Mobile Blazor Bindings, read ahead.
 
 ## Add a nuget.config file for nightly feed
 
-The easiest way to access nightly builds of Mobile Blazor Bindings is with a `nuget.config` file. Typically this file is located in the root of your project's repository so that its settings are available to all solutions and projects in the repository.
+The easiest way to access nightly builds of Mobile Blazor Bindings is with a `nuget.config` file. This file tells NuGet clients such as Visual Studio and the `dotnet` command where to find packages. Typically this file is located in the root of your project's repository so that its settings are available to all solutions and projects in the repository.
 
 1. In the root of your project's repository create a file named `nuget.config`
 
@@ -34,3 +34,14 @@ The easiest way to access nightly builds of Mobile Blazor Bindings is with a `nu
 
 > [!TIP]
 > If the configuration file already exists, just add the `<add ... />` tag to the end of the list of package sources.
+
+## Browse the nightly feed
+
+To browse the feed and see which packages are available, navigate to the [`mobileblazorbindings-nightly` package feed](https://dev.azure.com/dnceng/public/_packaging?_a=feed&feed=mobileblazorbindings-nightly)
+
+## More information
+
+To learn more about NuGet configuration settings please refer to these resources:
+
+* [nuget.config reference](https://docs.microsoft.com/nuget/reference/nuget-config-file)
+* [Common NuGet configurations](https://docs.microsoft.com/nuget/consume-packages/configuring-nuget-behavior)
