@@ -26,6 +26,8 @@
     href: ui/css-styles.md
   - name: Grid layout
     href: ui/grid-layout.md
+  - name: Gestures
+    href: ui/gestures.md
 - name: Advanced
   items:
   - name: Blazor and Razor references
