@@ -52,6 +52,7 @@ The built-in components can be divided into several broad categories:
    * BoxView
    * Button
    * CheckBox
+   * DatePicker
    * Image
    * ImageButton
    * Entry
@@ -60,6 +61,7 @@ The built-in components can be divided into several broad categories:
    * Slider
    * Stepper
    * Switch
+   * TimePicker
 
 1. Specialized components
    * Application
