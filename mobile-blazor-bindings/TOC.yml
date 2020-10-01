@@ -18,6 +18,8 @@
     href: walkthroughs/hybrid-hello-world.md
   - name: Shell Navigation Manager
     href: walkthroughs/shell-navigation-manager.md
+  - name: SkiaSharp
+    href: walkthroughs/skiasharp.md
 - name: User Interface
   items:
   - name: Components reference
