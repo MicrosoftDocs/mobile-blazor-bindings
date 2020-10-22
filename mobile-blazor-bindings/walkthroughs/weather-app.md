@@ -2,15 +2,15 @@
 title: 'Walkthrough: Weather App - Mobile Blazor Bindings'
 ---
 
-[!INCLUDE [experiment-warning](../includes/experiment-warning.md)]
-
 # Weather App
+
+[!INCLUDE [experiment-warning](../includes/experiment-warning.md)]
 
 The completed Weather app sample is available [here](https://github.com/xamarin/MobileBlazorBindings/tree/master/samples/MobileBlazorBindingsWeather). The sample uses a 3rd party Xamarin.Forms component, the `Grid` component, two-way bindings, component initialization logic, dependency injection, CSS styles, and many more features.
 
 The completed app looks like this:
 
-[ ![Weather App running in the Android Emulator](media/weather-app/weather-app-inline.png) ](media/weather-app/weather-app-expanded.png#lightbox)
+[ ![Weather App running in the Android Emulator[(./media/weather-app/weather-app-inline.png) [(./media/weather-app/weather-app-expanded.png#lightbox)
 
 Rather than write the app from scratch, let's take a look at the key components in this sample application.
 
@@ -43,8 +43,8 @@ Rather than write the app from scratch, let's take a look at the key components 
 
      Learn more about the allowed properties here:
 
-        * [ColumnDefinition](https://docs.microsoft.com/dotnet/api/xamarin.forms.columndefinition?view=xamarin-forms)
-        * [RowDefinition](https://docs.microsoft.com/dotnet/api/Xamarin.Forms.RowDefinition?view=xamarin-forms)
+        * [ColumnDefinition](https://docs.microsoft.com/dotnet/api/xamarin.forms.columndefinition)
+        * [RowDefinition](https://docs.microsoft.com/dotnet/api/Xamarin.Forms.RowDefinition)
 
    * The `<Contents>` section contains several `<GridCell>` components that can have a `Row`, `Column`, `RowSpan`, and `ColumnSpan` property, and contain a single item representing the cells contents. All of these properties are optional. For example, this `GridCell` will be on row index 6, column index 0, and no row/column span:
 
@@ -64,7 +64,7 @@ Rather than write the app from scratch, let's take a look at the key components 
         </GridCell>
         ```
 
-1. A popular 3rd party component often used in Xamarin.Forms apps is the [`PancakeView` component](https://github.com/sthewissen/Xamarin.Forms.PancakeView). The component has been wrapped to enable it to be used with Blazor syntax in a separate class library project: [Microsoft.MobileBlazorBindings.PancakeView](https://github.com/xamarin/MobileBlazorBindings/tree/master/samples/MobileBlazorBindingsWeather/Microsoft.MobileBlazorBindings.PancakeView). To learn more about how to wrap Xamarin.Forms components for use with Blazor syntax, please read the [Wrapping Xamarin.Forms components for use with Blazor topic](../advanced/custom-components.md).
+1. A popular 3rd party component often used in Xamarin.Forms apps is the [`PancakeView` component](https://github.com/sthewissen/Xamarin.Forms.PancakeView). The component has been wrapped to enable it to be used with Blazor syntax in a separate class library project: [Microsoft.MobileBlazorBindings.PancakeView](https://github.com/xamarin/MobileBlazorBindings/tree/master/samples/MobileBlazorBindingsWeather/Microsoft.MobileBlazorBindings.PancakeView). To learn more about how to wrap Xamarin.Forms components for use with Blazor syntax, see [Wrapping Xamarin.Forms components for use with Blazor topic](../advanced/custom-components.md).
 
 1. Dependency injection is used in the weather app with a [`WeatherService` type](https://github.com/xamarin/MobileBlazorBindings/blob/master/samples/MobileBlazorBindingsWeather/MobileBlazorBindingsWeather/WeatherService.cs) that is [registered in the host](https://github.com/xamarin/MobileBlazorBindings/blob/master/samples/MobileBlazorBindingsWeather/MobileBlazorBindingsWeather/App.cs#L16) and consumed in the [`WeatherApp.razor` page](https://github.com/xamarin/MobileBlazorBindings/blob/master/samples/MobileBlazorBindingsWeather/MobileBlazorBindingsWeather/WeatherApp.razor#L1).
 
@@ -80,6 +80,6 @@ Rather than write the app from scratch, let's take a look at the key components 
     }
     ```
 
-   To learn more, including how to do async initialization, check out the [Blazor lifecycle methods documentation](https://docs.microsoft.com/aspnet/core/blazor/lifecycle?view=aspnetcore-3.0).
+   To learn more, including how to do async initialization, check out the [Blazor lifecycle methods documentation](https://docs.microsoft.com/aspnet/core/blazor/lifecycle).
 
 1. CSS styles are used to apply common properties by element type or by CSS class name. A [CSS file](https://github.com/xamarin/MobileBlazorBindings/blob/master/samples/MobileBlazorBindingsWeather/MobileBlazorBindingsWeather/WeatherStyles.css) is included as an embedded resource in the shared project (this is the default setting for CSS files). Learn more about using CSS in Mobile Blazor Bindings in the [CSS Styles topic](../ui/css-styles.md).

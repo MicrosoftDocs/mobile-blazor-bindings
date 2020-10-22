@@ -2,9 +2,9 @@
 title: 'Migrate Mobile Blazor Bindings From Preview 1 to Preview 2 - Mobile Blazor Bindings'
 ---
 
-[!INCLUDE [experiment-warning](../includes/experiment-warning.md)]
-
 # Migrate Mobile Blazor Bindings From Preview 1 to Preview 2
+
+[!INCLUDE [experiment-warning](../includes/experiment-warning.md)]
 
 This article explains how to update an existing Mobile Blazor Bindings Preview 1 project to Mobile Blazor Bindings Preview 2.
 
@@ -39,7 +39,7 @@ In the shared project edit the `App.cs` file to have this constructor code:
 ```
 
 > [!NOTE]
-   > If you have made other modifications or renamed content, please adjust the code as appropriate. The critical changes are to use the new `MobileBlazorBindingsHost`, setting the `MainPage` to a `ContentPage`, and passing in the `parent: MainPage` parameter.
+   > If you have made other modifications or renamed content, adjust the code as appropriate. The critical changes are to use the new `MobileBlazorBindingsHost`, setting the `MainPage` to a `ContentPage`, and passing in the `parent: MainPage` parameter.
 
 ## Update main .razor file to use a ContentView
 

@@ -2,9 +2,9 @@
 title: 'Grid Layout - Mobile Blazor Bindings'
 ---
 
-[!INCLUDE [experiment-warning](../includes/experiment-warning.md)]
-
 # Grid Layout
+
+[!INCLUDE [experiment-warning](../includes/experiment-warning.md)]
 
 The Grid is a layout that organizes its children into rows and columns, which can have proportional or absolute sizes. By default, a `Grid` contains one row and one column. In addition, a `Grid` can be used as a parent layout that contains other child layouts.
 

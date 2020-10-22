@@ -2,9 +2,9 @@
 title: 'Creating an app with Mobile Blazor Bindings - Mobile Blazor Bindings'
 ---
 
-[!INCLUDE [experiment-warning](includes/experiment-warning.md)]
-
 # Creating an app with Experimental Mobile Blazor Bindings
+
+[!INCLUDE [experiment-warning](includes/experiment-warning.md)]
 
 Creating an app involves a few steps:
 

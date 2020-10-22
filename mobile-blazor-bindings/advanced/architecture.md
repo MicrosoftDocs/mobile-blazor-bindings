@@ -2,9 +2,9 @@
 title: 'Architecture of Mobile Blazor Bindings - Mobile Blazor Bindings'
 ---
 
-[!INCLUDE [experiment-warning](../includes/experiment-warning.md)]
-
 # Architecture of Mobile Blazor Bindings
+
+[!INCLUDE [experiment-warning](../includes/experiment-warning.md)]
 
 Experimental Mobile Blazor Bindings consists of two main libraries:
 
@@ -13,4 +13,4 @@ Experimental Mobile Blazor Bindings consists of two main libraries:
 
 The following diagram shows the relationship between these packages and how they relate to other libraries and apps.
 
-[ ![Mobile Blazor Bindings architecture diagram](media/architecture/mobileblazorbindings-architecture-inline.png) ](media/architecture/mobileblazorbindings-architecture-expanded.png#lightbox)
+[ ![Mobile Blazor Bindings architecture diagram](./media/architecture/mobileblazorbindings-architecture-inline.png) ](./media/architecture/mobileblazorbindings-architecture-expanded.png#lightbox)

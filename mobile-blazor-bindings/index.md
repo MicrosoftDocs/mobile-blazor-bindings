@@ -30,7 +30,7 @@ With Mobile Blazor Bindings it is easy to build a native UI with labels, buttons
 
 And here it is running in the Android Emulator:
 
-[ ![Simple native app running in the Android Emulator](media/index/hello-world-inline.png) ](media/index/hello-world-expanded.png#lightbox)
+[ ![Simple native app running in the Android Emulator[(./media/index/hello-world-inline.png) [(./media/index/hello-world-expanded.png#lightbox)
 
 And you can build hybrid apps that mix native UI and HTML UI in the same screen, all sharing the same app logic and state:
 
@@ -88,7 +88,7 @@ And you can build hybrid apps that mix native UI and HTML UI in the same screen,
 
 And here it is running in the iOS Simulator, with native UI on top, and HTML UI on the bottom, sharing app logic and state:
 
-[ ![Simple hybrid app running in the iOS Simulator](media/index/ios-hybrid-inline.png) ](media/index/ios-hybrid-expanded.png#lightbox)
+[ ![Simple hybrid app running in the iOS Simulator[(./media/index/ios-hybrid-inline.png) [(./media/index/ios-hybrid-expanded.png#lightbox)
 
 To build your first apps, check out these topics:
 

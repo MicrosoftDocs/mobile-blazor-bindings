@@ -2,9 +2,9 @@
 title: 'Use nightly builds - Mobile Blazor Bindings'
 ---
 
-[!INCLUDE [experiment-warning](../includes/experiment-warning.md)]
-
 # Use nightly builds
+
+[!INCLUDE [experiment-warning](../includes/experiment-warning.md)]
 
 Nightly builds of Mobile Blazor Bindings enable you to use the absolute latest updates in your project. These changes are not yet part of an official release, which might mean that they are less polished and less tested.
 
@@ -41,7 +41,7 @@ To browse the feed and see which packages are available, navigate to the [`mobil
 
 ## More information
 
-To learn more about NuGet configuration settings please refer to these resources:
+To learn more about NuGet configuration settings, refer to these resources:
 
 * [nuget.config reference](https://docs.microsoft.com/nuget/reference/nuget-config-file)
 * [Common NuGet configurations](https://docs.microsoft.com/nuget/consume-packages/configuring-nuget-behavior)

@@ -2,9 +2,9 @@
 title: 'Walkthrough: Todo App - Mobile Blazor Bindings'
 ---
 
-[!INCLUDE [experiment-warning](../includes/experiment-warning.md)]
-
 # Todo App
+
+[!INCLUDE [experiment-warning](../includes/experiment-warning.md)]
 
 The completed Todo app sample is available [here](https://github.com/xamarin/MobileBlazorBindings/tree/master/samples/MobileBlazorBindingsTodoSample). The sample uses dependency injection, platform-specific services, a SQLite database for storage, modal dialogs, custom images, and many more features. This sample shows how to render a dynamically growing list of `Todo` items.
 
@@ -108,6 +108,6 @@ To build a simple Todo app, start with the project you've already created in the
 
 1. You can now run the app and add todo items and see them rendered in the list below. If you toggle the switch on a given item, the text of that item will have the strikethrough decoration applied:
 
-    [ ![Todo App running in the Android Emulator with a few todo items added to the list](media/todo-app/todoapp-completed-inline.png) ](media/todo-app/todoapp-completed-expanded.png#lightbox)
+    [ ![Todo App running in the Android Emulator with a few todo items added to the list[(./media/todo-app/todoapp-completed-inline.png) [(./media/todo-app/todoapp-completed-expanded.png#lightbox)
 
 Congratulations, you've built a todo app using Experimental Mobile Blazor Bindings that demonstrates how to build custom components with parameters, how to use two-way bindings, and how to loop over items to render a dynamic UI.
