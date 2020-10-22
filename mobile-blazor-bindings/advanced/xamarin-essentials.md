@@ -2,9 +2,9 @@
 title: 'Xamarin.Essentials - Mobile Blazor Bindings'
 ---
 
-[!INCLUDE [experiment-warning](../includes/experiment-warning.md)]
-
 # Xamarin.Essentials
+
+[!INCLUDE [experiment-warning](../includes/experiment-warning.md)]
 
 Xamarin.Essentials provides developers with cross-platform APIs for their mobile applications.
 

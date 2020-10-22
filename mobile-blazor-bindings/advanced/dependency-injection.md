@@ -2,9 +2,9 @@
 title: 'Dependency Injection - Mobile Blazor Bindings'
 ---
 
-[!INCLUDE [experiment-warning](../includes/experiment-warning.md)]
-
 # Dependency Injection
+
+[!INCLUDE [experiment-warning](../includes/experiment-warning.md)]
 
 Incorporating dependency injection into an application involves a few steps:
 
@@ -35,7 +35,7 @@ Incorporating dependency injection into an application involves a few steps:
             .Build();
         ```
 
-        Several registration methods for services are available on the [`ServiceCollectionServiceExtensions` class](https://docs.microsoft.com/dotnet/api/microsoft.extensions.dependencyinjection.servicecollectionserviceextensions?view=dotnet-plat-ext-3.00).
+        Several registration methods for services are available on the [`ServiceCollectionServiceExtensions` class](https://docs.microsoft.com/dotnet/api/microsoft.extensions.dependencyinjection.servicecollectionserviceextensions).
 
    1. Consuming the services. There are several ways to consume the services, and two of the most popular ways are:
 
@@ -47,7 +47,7 @@ Incorporating dependency injection into an application involves a few steps:
          @inject WeatherService WeatherService
          ```
 
-         Learn more about the `@inject` directive in the [Blazor documentation](https://docs.microsoft.com/aspnet/core/blazor/dependency-injection?view=aspnetcore-3.0).
+         Learn more about the `@inject` directive in the [Blazor documentation](https://docs.microsoft.com/aspnet/core/blazor/dependency-injection).
 
 > [!TIP]
 > In hybrid apps, services are shared between the native UI of the app, the web part of the app, and everywhere else. There are no special steps required to share services and state between areas of hybrid apps.

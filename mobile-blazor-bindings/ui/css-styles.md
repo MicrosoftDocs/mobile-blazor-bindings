@@ -2,9 +2,9 @@
 title: 'CSS Styles - Mobile Blazor Bindings'
 ---
 
-[!INCLUDE [experiment-warning](../includes/experiment-warning.md)]
-
 # CSS Styles
+
+[!INCLUDE [experiment-warning](../includes/experiment-warning.md)]
 
 ## Overview
 

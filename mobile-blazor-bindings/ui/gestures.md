@@ -2,9 +2,9 @@
 title: 'Gestures - Mobile Blazor Bindings'
 ---
 
-[!INCLUDE [experiment-warning](../includes/experiment-warning.md)]
-
 # Gestures
+
+[!INCLUDE [experiment-warning](../includes/experiment-warning.md)]
 
 ## Overview
 

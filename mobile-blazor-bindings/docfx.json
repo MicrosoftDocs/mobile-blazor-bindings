@@ -42,7 +42,8 @@
       "breadcrumb_path": "/mobile-blazor-bindings/breadcrumb/toc.json",
       "extendBreadcrumb": true,
       "feedback_system": "None",
-      "author": "Eilon"
+      "author": "Eilon",
+      "ms.author": "elipton"
     },
     "fileMetadata": {},
     "template": [],

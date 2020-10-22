@@ -2,9 +2,9 @@
 title: 'Uninstall Mobile Blazor Bindings - Mobile Blazor Bindings'
 ---
 
-[!INCLUDE [experiment-warning](../includes/experiment-warning.md)]
-
 # Uninstall Mobile Blazor Bindings
+
+[!INCLUDE [experiment-warning](../includes/experiment-warning.md)]
 
 To uninstall Experimental Mobile Blazor Bindings from your computer, run the following command:
 

@@ -3,11 +3,9 @@ title: 'Navigating with Shell Navigation Manager - Mobile Blazor Bindings'
 author: lachlanwgordon
 ---
 
-[!INCLUDE [experiment-warning](../includes/experiment-warning.md)]
-
 # Shell Navigation Manager
 
-## Intro
+[!INCLUDE [experiment-warning](../includes/experiment-warning.md)]
 
 There are several different approaches to navigation in Mobile Blazor Bindings. They are based on Xamarin.Forms navigation patterns such as Master/Detail, TabbedPage, Navigation Page, and Shell.
 
@@ -15,9 +13,9 @@ Shell Navigation Manager is designed to feel familiar to Blazor developers. The 
 
 Internally it is implemented using Xamarin.Forms Shell URI Navigation. Shell has support for top tabs, bottom tabs, hamburger/flyout, stack, modal and URI-based navigation. These can all be mixed together or used in isolation, depending on what your app needs.
 
-![Demonstration of Shell Navigation in the Xaminals demo shown on an iPhone.](media/shell-navigation/shell.gif)
+![Demonstration of Shell Navigation in the Xaminals demo shown on an iPhone.](./media/shell-navigation/shell.gif)
 
-For more details on Shell, check out the [Xamarin Forms documentation](https://docs.microsoft.com/xamarin/xamarin-forms/app-fundamentals/shell/). Details of routing in Blazor are in the [ASP.NET Core documentation](https://docs.microsoft.com/aspnet/core/blazor/fundamentals/routing?view=aspnetcore-3.1)
+For more details on Shell, check out the [Xamarin Forms documentation](https://docs.microsoft.com/xamarin/xamarin-forms/app-fundamentals/shell/). Details of routing in Blazor are in the [ASP.NET Core documentation](https://docs.microsoft.com/aspnet/core/blazor/fundamentals/routing)
 
 For a sample of ShellNavigationManager see the [Xaminals sample in the Mobile Blazor Bindings repo](https://github.com/xamarin/MobileBlazorBindings/tree/master/samples/MobileBlazorBindingsXaminals).
 
@@ -43,7 +41,7 @@ To start off here is a simple `Shell` that has two tabs: one for a HomePage, and
 </Shell>
 ```
 
-![App with two tabs built with Shell.](media/shell-navigation/shell-tabs.gif)
+![App with two tabs built with Shell.](./media/shell-navigation/shell-tabs.gif)
 
 > [!IMPORTANT]
 > The `HomePage` and `AboutPage` must have `ContentPage` as their root element to be used in `Shell`.
@@ -117,7 +115,7 @@ The following example shows a page with a `Button` that when pressed will naviga
 }
 ```
 
-![Shell navigation using NavigateToAsync](media/shell-navigation/shell-navigation.gif)
+![Shell navigation using NavigateToAsync](./media/shell-navigation/shell-navigation.gif)
 
 ## Navigation parameters
 
@@ -147,6 +145,6 @@ await NavigationManager.NavigateToAsync("contact/Dunston");
 
 When the `ContactPage` is navigated to, you can read the value of the `Name` by accessing the `Name` property in the page.
 
-![Shell navigation with name parameter using a text entry.](media/shell-navigation/shell-navigation-parameter.gif)
+![Shell navigation with name parameter using a text entry.[(./media/shell-navigation/shell-navigation-parameter.gif)
 
-Navigation parameters can be any of several .NET types that can be easily converted into strings, such as `int`, `string`, `Guid`, and `DateTime`. Full details of supported types are available in the [Blazor Routing documentation](https://docs.microsoft.com/aspnet/core/blazor/fundamentals/routing?view=aspnetcore-3.1#route-constraints)
+Navigation parameters can be any of several .NET types that can be easily converted into strings, such as `int`, `string`, `Guid`, and `DateTime`. Full details of supported types are available in the [Blazor Routing documentation](https://docs.microsoft.com/aspnet/core/blazor/fundamentals/routing#route-constraints)

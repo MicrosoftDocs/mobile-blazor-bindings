@@ -2,9 +2,9 @@
 title: 'Advanced template options - Mobile Blazor Bindings'
 ---
 
-[!INCLUDE [experiment-warning](../includes/experiment-warning.md)]
-
 # Advanced template options
+
+[!INCLUDE [experiment-warning](../includes/experiment-warning.md)]
 
 The templates for Mobile Blazor Bindings contain some advanced options to customize the template creation experience.
 
@@ -39,4 +39,4 @@ dotnet new blazorhybrid --CreateAndroidProject false --CreateiOSProject false -o
 
 ## Other `dotnet new` options
 
-For a complete reference of `dotnet new` options, please refer to the [dotnet new](https://docs.microsoft.com/dotnet/core/tools/dotnet-new) documentation.
+For a complete reference of `dotnet new` options, refer to the [dotnet new](https://docs.microsoft.com/dotnet/core/tools/dotnet-new) documentation.
