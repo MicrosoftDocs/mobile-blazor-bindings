@@ -60,6 +60,16 @@ HTML web UI content not showing up could be caused by several reasons. Check eac
             ...
       ```
 
+## Hybrid app not loading static assets such as CSS and images
+
+If your hybrid app is displaying the HTML rendered content but without the CSS and images, it could mean that the static assets are not being found.
+
+These are some possible causes and fixes:
+
+* Ensure that the correct path is being used. Static assets are referenced using the Blazor static file path pattern, which is `_content/<PROJECT_NAME>/path/to/the/file.css`. For example, in a project named `MySampleProject` a CSS file located in `wwwroot/css/bootstrap/bootstrap.min.css` would be referenced as `_content/MySampleProject/css/bootstrap/bootstrap.min.css`.
+
+* For Android, iOS, and macOS, make sure that the platform-specific project has a _direct_ reference to the project or package that contains the static assets. The type of CSPROJ file that they use requires that the reference be direct (project-to-project) instead of merely transitive (that is, project-to-project-to-project). (Windows projects do not require this.)
+
 ## CSS styles not working
 
 Refer to the [CSS troubleshooting section](../ui/css-styles.md#troubleshooting).
