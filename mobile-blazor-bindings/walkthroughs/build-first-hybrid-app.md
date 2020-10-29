@@ -54,3 +54,4 @@ The easiest way to get started with Experimental Mobile Blazor Bindings to build
 ## Next steps
 
 * To learn more about how this works, go to the [Hybrid Hello World Walkthrough](hybrid-hello-world.md).
+* To learn how to share the web UI with a Blazor Web App, go to the [Shared Web UI Walkthrough](shared-web-ui.md).
