@@ -169,6 +169,13 @@ It should look like this in your web browser:
 
 [ ![Email display UI running in the web browser[(./media/shared-web-ui/web-shared-ui-inline.png) [(./media/shared-web-ui/web-shared-ui-expanded.png#lightbox)
 
+## Additional resources
+
+To learn more about Razor Class Libraries check out these resources:
+
+* [ASP.NET Core Razor components class libraries](https://docs.microsoft.com/aspnet/core/blazor/components/class-libraries)
+* [Create reusable UI using the Razor class library project in ASP.NET Core](https://docs.microsoft.com/aspnet/core/razor-pages/ui-class)
+
 ## Summary
 
 In this walkthrough you created a Blazor Hybrid app that uses a Razor Class Library (RCL) for a portion of its UI (the email display). You then used that same RCL to host the UI in an ASP.NET Core web application.
