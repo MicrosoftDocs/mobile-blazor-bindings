@@ -2,14 +2,14 @@
 title: 'Walkthrough: Build your first hybrid app with Mobile Blazor Bindings - Mobile Blazor Bindings'
 ---
 
-[!INCLUDE [experiment-warning](../includes/experiment-warning.md)]
-
 # Build your first hybrid app
+
+[!INCLUDE [experiment-warning](../includes/experiment-warning.md)]
 
 The easiest way to get started with Experimental Mobile Blazor Bindings to build hybrid apps is to create the initial project from the command line. This template supports creating apps for Android, iOS, WPF (Windows), and macOS.
 
 > [!NOTE]
-> If you have not yet done so, please check the [pre-requisites and template installation instructions](../get-started.md).
+> If you have not yet done so, check the [pre-requisites and template installation instructions](../get-started.md).
 
 1. Open a command prompt or shell window
 
@@ -29,11 +29,11 @@ The easiest way to get started with Experimental Mobile Blazor Bindings to build
 
 1. You are now ready to open the solution in Visual Studio. To open the solution you can double-click the SLN file on your disk, or you can first open Visual Studio 2019, select `File` / `Open` / `Project/Solution`, and then navigate to the new folder you created and select `FirstBlazorHybridApp.sln`. The solution in Visual Studio should look like this:
 
-    [ ![Solution Explorer with all 5 projects](media/build-first-hybrid-app/solution-explorer-with-all-hybrid-projects-inline.png) ](media/build-first-hybrid-app/solution-explorer-with-all-hybrid-projects-expanded.png#lightbox)
+    [ ![Solution Explorer with all 5 projects](./media/build-first-hybrid-app/solution-explorer-with-all-hybrid-projects-inline.png) ](./media/build-first-hybrid-app/solution-explorer-with-all-hybrid-projects-expanded.png#lightbox)
 
 1. To run the project, you'll need to set one of the "backend" projects as your startup project. In Solution Explorer, right-click on the Android, iOS, Windows, or macOS project and select `Set as StartUp Project`.
 
-    [ ![Set startup project in Solution Explorer](media/build-first-hybrid-app/set-startup-hybrid-project-inline.png) ](media/build-first-hybrid-app/set-startup-hybrid-project-expanded.png#lightbox)
+    [ ![Set startup project in Solution Explorer](./media/build-first-hybrid-app/set-startup-hybrid-project-inline.png) ](./media/build-first-hybrid-app/set-startup-hybrid-project-expanded.png#lightbox)
 
 1. Press <kbd>F5</kbd> to launch the project in the emulator or on a device (depending on the chosen project) with the debugger attached (or press <kbd>Ctrl</kbd>+<kbd>F5</kbd> to run without the debugger)
 
@@ -41,12 +41,12 @@ The easiest way to get started with Experimental Mobile Blazor Bindings to build
 
 1. Your first application will launch in an emulator or on a device and look like this:
 
-    [ ![Hello World hybrid app running in the iOS Simulator](media/build-first-hybrid-app/ios-hybrid-helloworld-inline.png) ](media/build-first-hybrid-app/ios-hybrid-helloworld-expanded.png#lightbox)
+    [ ![Hello World hybrid app running in the iOS Simulator](./media/build-first-hybrid-app/ios-hybrid-helloworld-inline.png) ](./media/build-first-hybrid-app/ios-hybrid-helloworld-expanded.png#lightbox)
 
 1. Congratulations, you've created and run your first Experimental Mobile Blazor Bindings hybrid app!
 
 > [!TIP]
-> If you're experiencing a problem, please refer to the [troubleshooting guide](../advanced/troubleshooting.md).
+> If you're experiencing a problem, refer to the [troubleshooting guide](../advanced/troubleshooting.md).
 
 > [!TIP]
 > See the [advanced template options](../advanced/template-options.md) topic for more options when creating a new project.
@@ -54,3 +54,4 @@ The easiest way to get started with Experimental Mobile Blazor Bindings to build
 ## Next steps
 
 * To learn more about how this works, go to the [Hybrid Hello World Walkthrough](hybrid-hello-world.md).
+* To learn how to share the web UI with a Blazor Web App, go to the [Shared Web UI Walkthrough](shared-web-ui.md).

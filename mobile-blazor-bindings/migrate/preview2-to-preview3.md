@@ -2,11 +2,11 @@
 title: 'Migrate Mobile Blazor Bindings From Preview 2 to Preview 3 - Mobile Blazor Bindings'
 ---
 
-[!INCLUDE [experiment-warning](../includes/experiment-warning.md)]
-
 # Migrate Mobile Blazor Bindings From Preview 2 to Preview 3
 
-This article explains how to update an existing Mobile Blazor Bindings Preview 2 project to Mobile Blazor Bindings Preview 3. If your project is using Preview 1, please migrate to Preview 2 using the [previous migration guide](preview1-to-preview2.md), and then proceed to this guide.
+[!INCLUDE [experiment-warning](../includes/experiment-warning.md)]
+
+This article explains how to update an existing Mobile Blazor Bindings Preview 2 project to Mobile Blazor Bindings Preview 3. If your project is using Preview 1, migrate to Preview 2 using the [previous migration guide](preview1-to-preview2.md), and then proceed to this guide.
 
 For more information see the [announcement blog](https://aka.ms/mbb-preview3-blog) and [release notes](https://aka.ms/mbb-preview3-rel-notes).
 

@@ -2,11 +2,11 @@
 title: 'Migrate Mobile Blazor Bindings From Preview 3 to Preview 4 - Mobile Blazor Bindings'
 ---
 
-[!INCLUDE [experiment-warning](../includes/experiment-warning.md)]
-
 # Migrate Mobile Blazor Bindings From Preview 3 to Preview 4
 
-This article explains how to update an existing Mobile Blazor Bindings Preview 3 project to Mobile Blazor Bindings Preview 4. If your project is using an earlier preview, please follow the previous migration guides and then proceed to this guide.
+[!INCLUDE [experiment-warning](../includes/experiment-warning.md)]
+
+This article explains how to update an existing Mobile Blazor Bindings Preview 3 project to Mobile Blazor Bindings Preview 4. If your project is using an earlier preview, follow the previous migration guides and then proceed to this guide.
 
 For more information see the [announcement blog](https://aka.ms/mbb-preview4-blog) and [release notes](https://aka.ms/mbb-preview4-rel-notes).
 

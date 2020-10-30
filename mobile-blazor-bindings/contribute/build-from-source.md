@@ -2,14 +2,14 @@
 title: 'Build from Source - Mobile Blazor Bindings'
 ---
 
-[!INCLUDE [experiment-warning](../includes/experiment-warning.md)]
-
 # Build from Source
+
+[!INCLUDE [experiment-warning](../includes/experiment-warning.md)]
 
 > [!NOTE]
 > These instructions are Windows-only, but suitable alternatives should work on other operating systems.
 
-1. Clone the repo from https://github.com/xamarin/MobileBlazorBindings
+1. Clone the repo from <https://github.com/xamarin/MobileBlazorBindings>
 1. Open a Visual Studio Developer Command Prompt window
 1. Navigate to the repo root
 1. Run `init.cmd` from the command line to install required assets (a one-time operation)

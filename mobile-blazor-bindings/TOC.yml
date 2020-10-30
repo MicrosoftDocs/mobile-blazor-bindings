@@ -16,6 +16,12 @@
     href: walkthroughs/build-first-hybrid-app.md
   - name: Hybrid Hello World
     href: walkthroughs/hybrid-hello-world.md
+  - name: Shared Web UI
+    href: walkthroughs/shared-web-ui.md
+  - name: Shell Navigation Manager
+    href: walkthroughs/shell-navigation-manager.md
+  - name: SkiaSharp
+    href: walkthroughs/skiasharp.md
 - name: User Interface
   items:
   - name: Components reference
@@ -24,6 +30,8 @@
     href: ui/css-styles.md
   - name: Grid layout
     href: ui/grid-layout.md
+  - name: Gestures
+    href: ui/gestures.md
 - name: Advanced
   items:
   - name: Blazor and Razor references
@@ -58,6 +66,8 @@
     href: migrate/preview2-to-preview3.md
   - name: From Preview 3 to Preview 4
     href: migrate/preview3-to-preview4.md
+  - name: From Preview 4 to Preview 5
+    href: migrate/preview4-to-preview5.md
 - name: Contribute
   items:
   - name: Build from source

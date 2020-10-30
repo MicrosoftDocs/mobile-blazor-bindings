@@ -2,9 +2,9 @@
 title: 'Debug hybrid apps - Mobile Blazor Bindings'
 ---
 
-[!INCLUDE [experiment-warning](../includes/experiment-warning.md)]
-
 # Debug hybrid apps
+
+[!INCLUDE [experiment-warning](../includes/experiment-warning.md)]
 
 Debugging hybrid apps poses a challenge because of the mix of native UI components and web UI components.
 

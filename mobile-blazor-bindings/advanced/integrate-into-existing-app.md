@@ -2,9 +2,9 @@
 title: 'Integrate into existing app - Mobile Blazor Bindings'
 ---
 
-[!INCLUDE [experiment-warning](../includes/experiment-warning.md)]
-
 # Integrating Experimental Mobile Blazor Bindings into an existing Xamarin.Forms App
+
+[!INCLUDE [experiment-warning](../includes/experiment-warning.md)]
 
 This section coming soon!
 

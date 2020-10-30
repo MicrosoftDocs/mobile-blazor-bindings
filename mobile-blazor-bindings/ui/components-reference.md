@@ -2,9 +2,9 @@
 title: 'Components Reference - Mobile Blazor Bindings'
 ---
 
-[!INCLUDE [experiment-warning](../includes/experiment-warning.md)]
-
 # Components Reference
+
+[!INCLUDE [experiment-warning](../includes/experiment-warning.md)]
 
 ## Overview
 
@@ -20,7 +20,7 @@ UI components are used by referencing them with standard Razor syntax. For examp
 </SomeComponent>>
 ```
 
-To learn more about Blazor and Razor syntax, please refer to the [References](../advanced/references.md) topic.
+To learn more about Blazor and Razor syntax, refer to the [References](../advanced/references.md) topic.
 
 ## UI component categories
 
@@ -52,6 +52,7 @@ The built-in components can be divided into several broad categories:
    * BoxView
    * Button
    * CheckBox
+   * DatePicker
    * Image
    * ImageButton
    * Entry
@@ -60,6 +61,7 @@ The built-in components can be divided into several broad categories:
    * Slider
    * Stepper
    * Switch
+   * TimePicker
 
 1. Specialized components
    * Application
