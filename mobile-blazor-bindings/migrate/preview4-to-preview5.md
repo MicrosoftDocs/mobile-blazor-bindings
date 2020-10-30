@@ -94,7 +94,7 @@ If you want to make the changes individually, follow these steps:
             ```
 
 1. For Android:
-    1. In `MainActivity.cs` add a constructor argument to the `App` constructor: `LoadApplication(new App(new AssetFileProvider(Assets, "wwwroot")));`
+    1. In `MainActivity.cs` add a constructor argument to the `App` constructor: `LoadApplication(new App(new AssetFileProvider(Assets, "wwwroot")));`. Import any required namespaces, such as `Microsoft.MobileBlazorBindings.WebView.Android`.
     1. Create a folder in the Android project called `wwwroot` folder and copy the `wwwroot/index.html` file from the shared UI project there. Then right-click on the file and select Properties. Set its Build Action to `None` and set `Copy if newer`.
 1. For iOS:
     1. Create a folder in the iOS project called `Resources/wwwroot` folder and copy the `wwwroot/index.html` file from the shared UI project there. Then right-click on the file and select Properties. Ensure that the Build Action is set to `Content`.
