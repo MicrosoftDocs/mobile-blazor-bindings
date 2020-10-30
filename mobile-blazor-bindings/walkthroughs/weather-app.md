@@ -16,37 +16,28 @@ Rather than write the app from scratch, let's take a look at the key components 
 
 1. `Grid` component. The entire UI of the Weather App is contained in the [`WeatherApp` component](https://github.com/xamarin/MobileBlazorBindings/blob/master/samples/MobileBlazorBindingsWeather/MobileBlazorBindingsWeather/WeatherApp.razor), with its main layout established by a `Grid` component.
 
-   * The `Grid` component has two main sections to establish its structure:
+   * The `Grid` component has two main sections to establish its structure: the row/column definitions and the grid cells
 
         ```xml
-        <Grid ...properties...>
-            <Layout>
-                @* RowDefinitions and ColumnDefinitions *@
-            </Layout>
-            <Contents>
-                @* GridCell components *@
-            </Contents>
+        <Grid RowDefinitions="..." ColumnDefinitions="...">
+            @* GridCell components *@
         </Grid>
         ```
 
-   * The `<Layout>` section defines the `RowDefinition` and `ColumnDefinition` objects that establish the structure of the grid:
+   * The `RowDefinition` and `ColumnDefinition` properties establish the structure of the grid:
 
         ```xml
-        <RowDefinition GridUnitType="GridUnitType.Auto" />
-        <RowDefinition GridUnitType="GridUnitType.Star" />
-        <RowDefinition GridUnitType="GridUnitType.Auto" />
-        <RowDefinition GridUnitType="GridUnitType.Auto" />
-        <RowDefinition GridUnitType="GridUnitType.Auto" />
-        <RowDefinition GridUnitType="GridUnitType.Auto" />
-        <RowDefinition GridUnitType="GridUnitType.Auto" />
+        RowDefinitions="Auto, *, Auto, Auto, Auto, Auto, Auto"
         ```
 
-     Learn more about the allowed properties here:
+     The properties are optional and if they are omitted imply a single row/column. Each comma-separated value specifies the relative, absolute, or automatic dimensions of that row/column.
+
+     Learn more about the properties here:
 
         * [ColumnDefinition](https://docs.microsoft.com/dotnet/api/xamarin.forms.columndefinition)
         * [RowDefinition](https://docs.microsoft.com/dotnet/api/Xamarin.Forms.RowDefinition)
 
-   * The `<Contents>` section contains several `<GridCell>` components that can have a `Row`, `Column`, `RowSpan`, and `ColumnSpan` property, and contain a single item representing the cells contents. All of these properties are optional. For example, this `GridCell` will be on row index 6, column index 0, and no row/column span:
+   * The content of the Grid contains several `<GridCell>` components that can have a `Row`, `Column`, `RowSpan`, and `ColumnSpan` property, and contain a single item representing the cells contents. All of these properties are optional. For example, this `GridCell` will be on row index 6, column index 0, and no row/column span:
 
         ```xml
         <GridCell Row="6">
