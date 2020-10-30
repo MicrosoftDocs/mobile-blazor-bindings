@@ -14,7 +14,7 @@ For more information see the [announcement blog](https://aka.ms/mbb-preview5-blo
 
 The following NuGet package references need to be updated in all of your solution's projects:
 
-1. `Microsoft.MobileBlazorBindings` version is `0.4.TODO`
+1. `Microsoft.MobileBlazorBindings` version is `0.5.TODO`
 1. `Xamarin.Forms` version is `TODO` or greater
 1. `Xamarin.Essentials` version is `TODO` or greater (if used in the project)
 
@@ -30,9 +30,138 @@ To update the package versions:
 
 You should now be able to build and run your project on this preview.
 
-## Breaking change: TODO
+## Non-hybrid app migration
 
-TODO
+For non-hybrid apps the steps above cover the major changes regarding versions. The main other change is related to Grid layout syntax, which you can find below.
+
+## Hybrid app migration
+
+A Blazor Hybrid app created with Mobile Blazor Bindings Preview 4 requires several changes to update to Preview 5. The simplest way to migrate is to create a new project using Preview 5 and copying over all customizations.
+
+If you want to make the changes individually, follow these steps:
+
+1. In the shared UI project:
+    1. Move the `wwwroot` folder that contains static web assets to the root of the project (it used to be a sub-folder of the `WebUI` folder)
+    1. In `Main.razor` remove the `ContentRoot` property from the `<BlazorWebView>` control
+    1. In `App.cs` change the constructor to match this code (while preserving any customizations you have made, such as registering app-specific services):
+
+        ```csharp
+        public App(IFileProvider fileProvider = null)
+        {
+            var hostBuilder = MobileBlazorBindingsHost.CreateDefaultBuilder()
+                .ConfigureServices((hostContext, services) =>
+                {
+                    // Adds web-specific services such as NavigationManager
+                    services.AddBlazorHybrid();
+
+                    // Register app-specific services
+                    services.AddSingleton<CounterState>();
+                })
+                .UseWebRoot("wwwroot");
+
+            if (fileProvider != null)
+            {
+                hostBuilder.UseStaticFiles(fileProvider);
+            }
+            else
+            {
+                hostBuilder.UseStaticFiles();
+            }
+            var host = hostBuilder.Build();
+
+            MainPage = new ContentPage { Title = "My Application" };
+            host.AddComponent<Main>(parent: MainPage);
+        }
+        ```
+
+    1. In the CSPROJ file remove the `<WwwRootResourcePath>` element and remove the `<EmbeddedResource ... />` element that references it. (The project should no longer mention `WwwRootResourcePath` at all).
+    1. If the project has code that reads a static file in the project (such as the default template's `WebUI/Pages/FetchData.razor` file), do the following instead:
+        1. Inject the file provider service by adding `@inject Microsoft.Extensions.FileProviders.IFileProvider FileProvider` to the `.razor` file
+        1. Try to open the file and read it by calling:
+
+            ```csharp
+            var fileInfo = FileProvider.GetFileInfo("_content/PROJECT_NAME/filename.json");
+            if (fileInfo != null && fileInfo.Exists)
+            {
+                using (var stream = fileInfo.CreateReadStream())
+                {
+                    var data = await JsonSerializer.DeserializeAsync<DATA_TYPE>(stream, ...);
+                }
+            }
+            ```
+
+1. For Android:
+    1. In `MainActivity.cs` add a constructor argument to the `App` constructor: `LoadApplication(new App(new AssetFileProvider(Assets, "wwwroot")));`
+    1. Create a folder in the Android project called `wwwroot` folder and copy the `wwwroot/index.html` file from the shared UI project there. Then right-click on the file and select Properties. Set its Build Action to `None` and set `Copy if newer`.
+1. For iOS:
+    1. Create a folder in the iOS project called `Resources/wwwroot` folder and copy the `wwwroot/index.html` file from the shared UI project there. Then right-click on the file and select Properties. Ensure that the Build Action is set to `Content`.
+1. For macOS:
+    1. Create a folder in the macOS project called `Resources/wwwroot` folder and copy the `wwwroot/index.html` file from the shared UI project there. Then right-click on the file and select Properties. Ensure that the Build Action is set to `Content`.
+1. For Windows:
+    1. Create a folder in the Windows project called `wwwroot` folder and copy the `wwwroot/index.html` file from the shared UI project there. Then right-click on the file and select Properties. Ensure that the Build Action is set to `Content` and set `Copy if newer`.
+1. After completing the previous steps, you can go back to the shared UI project and delete `wwwroot/index.html` because it is now in the platform-specific projects
+
+## Breaking change: Grid syntax change for row and column definitions
+
+The Grid control's syntax for row and column definitions has been simplified:
+
+1. Remove the `<Layout>` and `<Contents>` sections from the `<Grid>` control
+1. Have the grid's row and column definitions defined as comma-separated strings instead of as individual collection items
+
+In Preview 4 and earlier the Grid had `<Layout>` and `<Contents>` sections, and multiple `<RowDefinition>`/`<ColumnDefinition>` items:
+
+```xml
+<Grid VerticalOptions="LayoutOptions.FillAndExpand">
+    <Layout>
+        <RowDefinition GridUnitType="GridUnitType.Auto" />
+        <RowDefinition GridUnitType="GridUnitType.Auto" />
+        <RowDefinition GridUnitType="GridUnitType.Auto" />
+        <ColumnDefinition GridUnitType="GridUnitType.Auto" />
+        <ColumnDefinition GridUnitType="GridUnitType.Auto" />
+    </Layout>
+    <Contents>
+        <GridCell Row="0" Column="0" ColumnSpan="2">
+            <Label BackgroundColor="Color.LightBlue" Text="Todo items" FontSize="20" />
+        </GridCell>
+        <GridCell Row="1" Column="0">
+            <Switch IsToggled="true" />
+        </GridCell>
+        <GridCell Row="1" Column="1">
+            <Label Text="Use awesome Xamarin.Forms features" FontSize="20" />
+        </GridCell>
+        <GridCell Row="2" Column="0">
+            <Switch IsToggled="true" />
+        </GridCell>
+        <GridCell Row="2" Column="1">
+            <Label Text="Delight our customers" FontSize="20" />
+        </GridCell>
+    </Contents>
+</Grid>
+```
+
+Starting in Preview5 the `<Layout>` and `<Content>` sections are removed, and all row/column definitions are specified as strings (9 lines of markup REMOVED!):
+
+```xml
+<Grid VerticalOptions="LayoutOptions.FillAndExpand" RowDefinitions="Auto, Auto, Auto" ColumnDefinitions="Auto, Auto">
+    <GridCell Row="0" Column="0" ColumnSpan="2">
+        <Label BackgroundColor="Color.LightBlue" Text="Todo items" FontSize="20" />
+    </GridCell>
+    <GridCell Row="1" Column="0">
+        <Switch IsToggled="true" />
+    </GridCell>
+    <GridCell Row="1" Column="1">
+        <Label Text="Use awesome Xamarin.Forms features" FontSize="20" />
+    </GridCell>
+    <GridCell Row="2" Column="0">
+        <Switch IsToggled="true" />
+    </GridCell>
+    <GridCell Row="2" Column="1">
+        <Label Text="Delight our customers" FontSize="20" />
+    </GridCell>
+</Grid>
+```
+
+For more Grid information, refer to the [Grid Layout](../ui/grid-layout.md) topic.
 
 ## TODO: Another change
 
