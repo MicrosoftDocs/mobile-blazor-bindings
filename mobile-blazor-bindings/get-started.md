@@ -30,7 +30,7 @@ Experimental Mobile Blazor Bindings requires the following software:
 1. Install the Experimental Mobile Blazor Bindings project templates by running this command:
 
     ```shell
-    dotnet new -i Microsoft.MobileBlazorBindings.Templates::0.5.TODO
+    dotnet new -i Microsoft.MobileBlazorBindings.Templates::0.5.50-preview
     ```
 
 ## Next steps

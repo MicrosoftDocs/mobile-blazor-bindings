@@ -14,9 +14,10 @@ For more information see the [announcement blog](https://aka.ms/mbb-preview5-blo
 
 The following NuGet package references need to be updated in all of your solution's projects:
 
-1. `Microsoft.MobileBlazorBindings` version is `0.5.TODO`
-1. `Xamarin.Forms` version is `TODO` or greater
-1. `Xamarin.Essentials` version is `TODO` or greater (if used in the project)
+1. `Microsoft.MobileBlazorBindings` version is `0.5.50-preview`
+1. `Xamarin.Forms` version is `4.8.0.1451` or greater
+1. `Xamarin.Essentials` version is `1.5.3.2` or greater (if used in the project)
+1. `Microsoft.Web.WebView2` - remove direct references to this package (from the Windows project) because it will be picked up transitively
 
 To update the package versions:
 
@@ -37,6 +38,8 @@ For non-hybrid apps the steps above cover the major changes regarding versions. 
 ## Hybrid app migration
 
 A Blazor Hybrid app created with Mobile Blazor Bindings Preview 4 requires several changes to update to Preview 5. The simplest way to migrate is to create a new project using Preview 5 and copying over all customizations.
+
+To see all the changes in the default templates refer to [Changes from Preview 4 v0.4.74-preview to Preview 5 v0.5.50-preview](https://github.com/Eilon/MobileBlazorBindingsMigration/compare/v0.4.74-preview...v0.5.50-preview)
 
 If you want to make the changes individually, follow these steps:
 
