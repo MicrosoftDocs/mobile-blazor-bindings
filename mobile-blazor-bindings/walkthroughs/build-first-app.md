@@ -31,7 +31,7 @@ The easiest way to get started with Experimental Mobile Blazor Bindings is to in
 
 1. To run the project, you'll need to set one of the "backend" projects as your startup project. In Solution Explorer, right-click on the Android or iOS project and select `Set as StartUp Project`.
 
-    [ ![Set startup project in Solution Explorer[(./media/build-first-app/set-startup-project-inline.png) [(./media/build-first-app/set-startup-project-expanded.png#lightbox)
+    [ ![Set startup project in Solution Explorer](./media/build-first-app/set-startup-project-inline.png) ](./media/build-first-app/set-startup-project-expanded.png#lightbox)
 
 1. Press <kbd>F5</kbd> to launch the project in the emulator with the debugger attached (or press <kbd>Ctrl</kbd>+<kbd>F5</kbd> to run without the debugger)
 
@@ -39,7 +39,7 @@ The easiest way to get started with Experimental Mobile Blazor Bindings is to in
 
 1. Your first application will launch in an emulator or on a device and look like this:
 
-    [ ![Hello World running in the Android Emulator[(./media/build-first-app/android-helloworld-inline.png) [(./media/build-first-app/android-helloworld-expanded.png#lightbox)
+    [ ![Hello World running in the Android Emulator](./media/build-first-app/android-helloworld-inline.png) ](./media/build-first-app/android-helloworld-expanded.png#lightbox)
 
 1. Congratulations, you've created and run your first Experimental Mobile Blazor Bindings app!
 

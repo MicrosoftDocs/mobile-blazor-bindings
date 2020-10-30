@@ -10,7 +10,7 @@ The completed Weather app sample is available [here](https://github.com/xamarin/
 
 The completed app looks like this:
 
-[ ![Weather App running in the Android Emulator[(./media/weather-app/weather-app-inline.png) [(./media/weather-app/weather-app-expanded.png#lightbox)
+[ ![Weather App running in the Android Emulator](./media/weather-app/weather-app-inline.png) ](./media/weather-app/weather-app-expanded.png#lightbox)
 
 Rather than write the app from scratch, let's take a look at the key components in this sample application.
 

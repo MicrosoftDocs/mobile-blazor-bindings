@@ -10,7 +10,7 @@ title: 'Troubleshooting - Mobile Blazor Bindings'
 
 If you choose to run the iOS project, you might get an error indicating that there are no iOS code signing keys. That could mean you are trying to deploy to a physical iOS device (such as an iPhone) but without the right configuration. If you intend to use the iOS Simulator, iPhoneSimulator target platform is selected.
 
-[ ![iPhone and iPhoneSimulator target platform selection[(./media/troubleshooting/ios-target-platform-inline.png) [(./media/troubleshooting/ios-target-platform-expanded.png#lightbox)
+[ ![iPhone and iPhoneSimulator target platform selection](./media/troubleshooting/ios-target-platform-inline.png) ](./media/troubleshooting/ios-target-platform-expanded.png#lightbox)
 
 ## Hybrid app doesn't show HTML web UI content
 

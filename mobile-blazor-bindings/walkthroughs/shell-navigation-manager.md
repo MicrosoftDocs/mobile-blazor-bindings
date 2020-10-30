@@ -145,6 +145,6 @@ await NavigationManager.NavigateToAsync("contact/Dunston");
 
 When the `ContactPage` is navigated to, you can read the value of the `Name` by accessing the `Name` property in the page.
 
-![Shell navigation with name parameter using a text entry.[(./media/shell-navigation/shell-navigation-parameter.gif)
+![Shell navigation with name parameter using a text entry.](./media/shell-navigation/shell-navigation-parameter.gif)
 
 Navigation parameters can be any of several .NET types that can be easily converted into strings, such as `int`, `string`, `Guid`, and `DateTime`. Full details of supported types are available in the [Blazor Routing documentation](https://docs.microsoft.com/aspnet/core/blazor/fundamentals/routing#route-constraints)

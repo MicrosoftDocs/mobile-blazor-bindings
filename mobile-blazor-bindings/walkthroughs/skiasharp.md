@@ -111,7 +111,7 @@ Or you could draw a line graph along with a face with this code:
     }
 ```
 
-[ ![SkiaSharp Canvas inside a Mobile Blazor Bindings App running on an iPhone Simulator[(./media/skiasharp/skiasharp-inline.png) [(./media/skiasharp/skiasharp-expanded.png#lightbox)
+[ ![SkiaSharp Canvas inside a Mobile Blazor Bindings App running on an iPhone Simulator](./media/skiasharp/skiasharp-inline.png) ](./media/skiasharp/skiasharp-expanded.png#lightbox)
 
 That's all you need to get SkiaSharp running in a Mobile Blazor Bindings app. From here on, everything is the same as in the [Xamarin.Forms SkiaSharp docs](https://docs.microsoft.com/xamarin/xamarin-forms/user-interface/graphics/skiasharp/). For a sample of SkiaSharp in Mobile Bindings check out the `SkiaCanvasDemo.razor` and `SkiaCanvasDemo.razor.cs` in the [Controls Gallery Sample](https://github.com/xamarin/MobileBlazorBindings/tree/master/samples/ControlGallery/ControlGallery/Views).
 

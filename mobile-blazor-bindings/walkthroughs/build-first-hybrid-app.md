@@ -29,11 +29,11 @@ The easiest way to get started with Experimental Mobile Blazor Bindings to build
 
 1. You are now ready to open the solution in Visual Studio. To open the solution you can double-click the SLN file on your disk, or you can first open Visual Studio 2019, select `File` / `Open` / `Project/Solution`, and then navigate to the new folder you created and select `FirstBlazorHybridApp.sln`. The solution in Visual Studio should look like this:
 
-    [ ![Solution Explorer with all 5 projects[(./media/build-first-hybrid-app/solution-explorer-with-all-hybrid-projects-inline.png) [(./media/build-first-hybrid-app/solution-explorer-with-all-hybrid-projects-expanded.png#lightbox)
+    [ ![Solution Explorer with all 5 projects](./media/build-first-hybrid-app/solution-explorer-with-all-hybrid-projects-inline.png) ](./media/build-first-hybrid-app/solution-explorer-with-all-hybrid-projects-expanded.png#lightbox)
 
 1. To run the project, you'll need to set one of the "backend" projects as your startup project. In Solution Explorer, right-click on the Android, iOS, Windows, or macOS project and select `Set as StartUp Project`.
 
-    [ ![Set startup project in Solution Explorer[(./media/build-first-hybrid-app/set-startup-hybrid-project-inline.png) [(./media/build-first-hybrid-app/set-startup-hybrid-project-expanded.png#lightbox)
+    [ ![Set startup project in Solution Explorer](./media/build-first-hybrid-app/set-startup-hybrid-project-inline.png) ](./media/build-first-hybrid-app/set-startup-hybrid-project-expanded.png#lightbox)
 
 1. Press <kbd>F5</kbd> to launch the project in the emulator or on a device (depending on the chosen project) with the debugger attached (or press <kbd>Ctrl</kbd>+<kbd>F5</kbd> to run without the debugger)
 
@@ -41,7 +41,7 @@ The easiest way to get started with Experimental Mobile Blazor Bindings to build
 
 1. Your first application will launch in an emulator or on a device and look like this:
 
-    [ ![Hello World hybrid app running in the iOS Simulator[(./media/build-first-hybrid-app/ios-hybrid-helloworld-inline.png) [(./media/build-first-hybrid-app/ios-hybrid-helloworld-expanded.png#lightbox)
+    [ ![Hello World hybrid app running in the iOS Simulator](./media/build-first-hybrid-app/ios-hybrid-helloworld-inline.png) ](./media/build-first-hybrid-app/ios-hybrid-helloworld-expanded.png#lightbox)
 
 1. Congratulations, you've created and run your first Experimental Mobile Blazor Bindings hybrid app!
 
