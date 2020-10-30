@@ -165,7 +165,3 @@ Starting in Preview5 the `<Layout>` and `<Content>` sections are removed, and al
 ```
 
 For more Grid information, refer to the [Grid Layout](../ui/grid-layout.md) topic.
-
-## TODO: Another change
-
-TODO
