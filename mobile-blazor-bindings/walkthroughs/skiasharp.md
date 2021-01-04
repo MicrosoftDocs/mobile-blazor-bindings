@@ -16,7 +16,9 @@ This guide covers the basics of how to add a Skia Sharp Canvas to a Razor Compon
 To get started install the following NuGet packages:
 
 1. Into the .NET Standard project with your Razor files install the `Microsoft.MobileBlazorBindings.SkiaSharp` NuGet package.
-1. In the iOS and Android projects install the `SkiaSharp.Views.Forms` NuGet package.
+1. Install the platform-specific NuGet packages in each platform project:
+    1. iOS and Android projects: install the `SkiaSharp.Views.Forms` NuGet package.
+    1. Windows projects: install the `SkiaSharp.Views.Forms.WPF` NuGet package.
 
 In the `_Imports.razor` file at the root of the project add the following lines to import the SkiaSharp components and APIs into all Razor files:
 
@@ -117,4 +119,4 @@ That's all you need to get SkiaSharp running in a Mobile Blazor Bindings app. Fr
 
 ## Troubleshooting
 
-If you get a compilation error such as `Error: framework not found libSkiaSharp` during compilation, check that you installed the `SkiaSharp.Views.Forms` NuGet package into the iOS and Android projects.
+If you get an error about missing libraries such as `Error: framework not found libSkiaSharp`, check that you installed the platform-specific NuGet package into each platform-specific project (such as iOS, Android, and Windows) as noted in the [setup](#setup) section.
