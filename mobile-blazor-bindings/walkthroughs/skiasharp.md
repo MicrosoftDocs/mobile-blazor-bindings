@@ -17,8 +17,8 @@ To get started install the following NuGet packages:
 
 1. Into the .NET Standard project with your Razor files install the `Microsoft.MobileBlazorBindings.SkiaSharp` NuGet package.
 1. Install the platform-specific NuGet packages in each platform project:
-    1. iOS and Android projects: install the `SkiaSharp.Views.Forms` NuGet package.
-    1. Windows projects: install the `SkiaSharp.Views.Forms.WPF` NuGet package.
+    1. Android, iOS, macOS, and Windows projects: install the `SkiaSharp.Views.Forms` NuGet package.
+    1. Windows projects: install the `SkiaSharp.Views.WPF` and `SkiaSharp.Views.Forms.WPF` NuGet packages.
 
 In the `_Imports.razor` file at the root of the project add the following lines to import the SkiaSharp components and APIs into all Razor files:
 
