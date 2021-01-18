@@ -21,8 +21,9 @@ Experimental Mobile Blazor Bindings requires the following software:
 1. Visual Studio or Visual Studio for Mac, with the following workloads installed:
    * Mobile development with .NET (Xamarin.Forms)
    * ASP.NET and web development
-1. To use Blazor Hybrid Apps:
-   * On Windows install [Microsoft Edge Canary Channel](https://www.microsoftedgeinsider.com/download)
+1. Additional requirements to build and run Blazor Hybrid Apps:
+   * On Windows: install [Microsoft Edge Canary Channel](https://www.microsoftedgeinsider.com/download)
+   * On Mac: no additional requirements
 
 ## Install the project templates
 
