@@ -35,7 +35,7 @@ The built-in components can be divided into several broad categories:
 
 1. Page components
    * ContentPage
-   * MasterDetailPage
+   * FlyoutPage
    * Page
    * TabbedPage
    * TemplatedPage
