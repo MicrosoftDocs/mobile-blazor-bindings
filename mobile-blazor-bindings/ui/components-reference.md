@@ -66,12 +66,15 @@ The built-in components can be divided into several broad categories:
 1. Specialized components
    * Application
    * BaseMenuItem
+   * BlazorWebView
    * FormattedString
    * GestureElement
    * MenuItem
    * Shell (including ShellContent, ShellGroupItem, ShellItem, FlyoutItem, TabBar, ShellSection, Tab)
    * Span
+   * StyleSheet
+   * WebView
 
 ## More information
 
-Because the built-in UI components are based on Xamarin.Forms controls, you can refer to the [Xamarin.Forms Controls Reference](https://docs.microsoft.com/xamarin/xamarin-forms/user-interface/controls/) to learn more about how they work and their properties and events.
+Because most of the built-in UI components are based on Xamarin.Forms controls, you can refer to the [Xamarin.Forms Controls Reference](https://docs.microsoft.com/xamarin/xamarin-forms/user-interface/controls/) to learn more about how they work and their properties and events.
