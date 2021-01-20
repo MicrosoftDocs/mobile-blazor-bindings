@@ -47,3 +47,7 @@ Steps:
 ### Debug macOS hybrid web UI
 
 TODO: Include macOS steps
+
+### Debug Tizen hybrid web UI
+
+TODO: Include Tizen steps
