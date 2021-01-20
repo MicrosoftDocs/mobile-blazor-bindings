@@ -35,7 +35,19 @@ Steps:
 
 ### Debug iOS hybrid web UI
 
-TODO: Include Safari steps
+Pre-requisites:
+
+* Have Safari installed on your macOS developer machine
+* Enable the developer tools:
+  1. Open Safari's preferences by Safari > Preferences in the menu bar or pressing `Command + ,`
+  1. Go in the Advanced menu tab
+  1. Tick _Show Develop menu in menu bar'
+
+Steps:
+
+1. Launch the affected app on your iOS device
+1. In Safari on your developer machine open the _Develop_ menu
+1. Locate your test device and select the app to debug running on IP 0.0.0.0
 
 ### Debug Windows hybrid web UI
 
