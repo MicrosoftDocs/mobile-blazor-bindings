@@ -1,5 +1,7 @@
 ---
 title: 'Walkthrough: Hybrid Hello World - Mobile Blazor Bindings'
+ms.topic: tutorial
+ms.prod: aspnet-core
 ---
 
 # Hybrid Hello World - how does it work?
