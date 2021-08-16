@@ -1,5 +1,7 @@
 ---
 title: 'Access native controls - Mobile Blazor Bindings'
+ms.topic: article
+ms.prod: aspnet-core
 ---
 
 # Access native controls

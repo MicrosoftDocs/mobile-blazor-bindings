@@ -1,5 +1,7 @@
 ---
 title: 'Experimental Mobile Blazor Bindings'
+ms.topic: article
+ms.prod: aspnet-core
 ---
 
 # Experimental Mobile Blazor Bindings

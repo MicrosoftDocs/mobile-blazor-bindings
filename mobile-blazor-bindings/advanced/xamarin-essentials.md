@@ -1,5 +1,7 @@
 ---
 title: 'Xamarin.Essentials - Mobile Blazor Bindings'
+ms.topic: article
+ms.prod: aspnet-core
 ---
 
 # Xamarin.Essentials

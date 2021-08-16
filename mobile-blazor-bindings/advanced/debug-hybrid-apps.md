@@ -1,5 +1,7 @@
 ---
 title: 'Debug hybrid apps - Mobile Blazor Bindings'
+ms.topic: article
+ms.prod: aspnet-core
 ---
 
 # Debug hybrid apps

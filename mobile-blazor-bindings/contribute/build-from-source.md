@@ -1,5 +1,7 @@
 ---
 title: 'Build from Source - Mobile Blazor Bindings'
+ms.topic: article
+ms.prod: aspnet-core
 ---
 
 # Build from Source

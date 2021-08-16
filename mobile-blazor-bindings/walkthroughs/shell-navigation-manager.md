@@ -1,6 +1,8 @@
 ---
 title: 'Navigating with Shell Navigation Manager - Mobile Blazor Bindings'
 author: lachlanwgordon
+ms.topic: article
+ms.prod: aspnet-core
 ---
 
 # Shell Navigation Manager

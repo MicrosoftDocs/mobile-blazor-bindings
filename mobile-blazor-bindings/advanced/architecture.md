@@ -1,5 +1,7 @@
 ---
 title: 'Architecture of Mobile Blazor Bindings - Mobile Blazor Bindings'
+ms.topic: article
+ms.prod: dotnet-architecture
 ---
 
 # Architecture of Mobile Blazor Bindings

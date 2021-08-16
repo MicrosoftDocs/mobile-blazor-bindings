@@ -1,5 +1,7 @@
 ---
 title: 'Components Reference - Mobile Blazor Bindings'
+ms.topic: article
+ms.prod: aspnet-core
 ---
 
 # Components Reference

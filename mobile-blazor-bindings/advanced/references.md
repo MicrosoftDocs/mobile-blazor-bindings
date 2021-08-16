@@ -1,5 +1,7 @@
 ---
 title: 'Blazor and Razor references - Mobile Blazor Bindings'
+ms.topic: article
+ms.prod: aspnet-core
 ---
 
 # Blazor and Razor references
