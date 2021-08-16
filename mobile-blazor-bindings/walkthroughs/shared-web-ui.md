@@ -1,5 +1,7 @@
 ---
 title: 'Walkthrough: Shared Web UI - Mobile Blazor Bindings'
+ms.topic: tutorial
+ms.prod: aspnet-core
 ---
 
 # Shared Web UI
