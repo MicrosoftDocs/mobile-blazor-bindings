@@ -1,5 +1,7 @@
 ---
 title: 'Roadmap - Mobile Blazor Bindings'
+ms.topic: article
+ms.prod: aspnet-core
 ---
 
 # Roadmap
