@@ -1,5 +1,7 @@
 ---
 title: 'Uninstall Mobile Blazor Bindings - Mobile Blazor Bindings'
+ms.topic: article
+ms.prod: aspnet-core
 ---
 
 # Uninstall Mobile Blazor Bindings
