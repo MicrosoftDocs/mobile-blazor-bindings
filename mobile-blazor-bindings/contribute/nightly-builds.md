@@ -1,5 +1,7 @@
 ---
 title: 'Use nightly builds - Mobile Blazor Bindings'
+ms.topic: article
+ms.prod: aspnet-core
 ---
 
 # Use nightly builds
