@@ -1,6 +1,8 @@
 ---
 title: 'Navigating with Shell Navigation Manager - Mobile Blazor Bindings'
 author: lachlanwgordon
+ms.topic: article
+ms.prod: aspnet-core
 ---
 
 # Shell Navigation Manager
@@ -77,18 +79,18 @@ For example, here's a contact page with the route `/contact`.
 
 ```xml
 @page "/contact"
-<ContentView>
+<ContentPage>
     <StackLayout>
         <Label Text="Phone Number:"></Label>
         <Label Text="123456"></Label>
     </StackLayout>
-</ContentView>
+</ContentPage>
 ```
 
 Multiple routes can be placed on a page if required.
 
-> [!IMPORTANT]
-> At present target pages must have a `ContentView` as their root element. This differs from the `ContentPage` which must be used for children in a Shell.
+> [!NOTE]
+> As of the 0.6 Preview The target of a Shell navigation must derive from the `Page` type. Prior to the 0.6 Preview release the target had to derive from `ContentView`.
 
 ## Navigating to a page
 

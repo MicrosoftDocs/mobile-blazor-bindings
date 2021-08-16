@@ -1,5 +1,7 @@
 ---
 title: 'Custom components - Mobile Blazor Bindings'
+ms.topic: article
+ms.prod: aspnet-core
 ---
 
 # Custom components

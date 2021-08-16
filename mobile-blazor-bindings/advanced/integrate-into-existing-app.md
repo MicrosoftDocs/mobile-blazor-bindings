@@ -1,5 +1,7 @@
 ---
 title: 'Integrate into existing app - Mobile Blazor Bindings'
+ms.topic: article
+ms.prod: aspnet-core
 ---
 
 # Integrating Experimental Mobile Blazor Bindings into an existing Xamarin.Forms App

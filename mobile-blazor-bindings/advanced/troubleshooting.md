@@ -1,5 +1,7 @@
 ---
 title: 'Troubleshooting - Mobile Blazor Bindings'
+ms.topic: troubleshooting
+ms.prod: aspnet-core
 ---
 
 # Troubleshooting Mobile Blazor Bindings
