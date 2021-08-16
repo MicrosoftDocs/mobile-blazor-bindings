@@ -1,6 +1,6 @@
 ---
 title: 'CSS Styles - Mobile Blazor Bindings'
-ms.topic = article
+ms.topic: article
 ms.prod: aspnet-core
 ---
 
