@@ -14,7 +14,7 @@ You can write reusable custom components either using Blazor components or by wr
 
 You can create a reusable Blazor component by writing a `.razor` file just like you would in an application. The component can be shipped as a NuGet package so that it is easily reusable in other projects.
 
-To learn more about component libraries, check out the [ASP.NET Core Razor components class libraries](https://docs.microsoft.com/aspnet/core/blazor/class-libraries&tabs=visual-studio).
+To learn more about component libraries, check out the [ASP.NET Core Razor components class libraries](/aspnet/core/blazor/class-libraries&tabs=visual-studio).
 
 More details coming soon!
 

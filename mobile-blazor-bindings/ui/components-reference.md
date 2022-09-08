@@ -79,4 +79,4 @@ The built-in components can be divided into several broad categories:
 
 ## More information
 
-Because most of the built-in UI components are based on Xamarin.Forms controls, you can refer to the [Xamarin.Forms Controls Reference](https://docs.microsoft.com/xamarin/xamarin-forms/user-interface/controls/) to learn more about how they work and their properties and events.
+Because most of the built-in UI components are based on Xamarin.Forms controls, you can refer to the [Xamarin.Forms Controls Reference](/xamarin/xamarin-forms/user-interface/controls/) to learn more about how they work and their properties and events.
