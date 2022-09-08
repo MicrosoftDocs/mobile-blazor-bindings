@@ -175,8 +175,8 @@ It should look like this in your web browser:
 
 To learn more about Razor Class Libraries check out these resources:
 
-* [ASP.NET Core Razor components class libraries](https://docs.microsoft.com/aspnet/core/blazor/components/class-libraries)
-* [Create reusable UI using the Razor class library project in ASP.NET Core](https://docs.microsoft.com/aspnet/core/razor-pages/ui-class)
+* [ASP.NET Core Razor components class libraries](/aspnet/core/blazor/components/class-libraries)
+* [Create reusable UI using the Razor class library project in ASP.NET Core](/aspnet/core/razor-pages/ui-class)
 
 ## Summary
 

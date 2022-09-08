@@ -25,7 +25,7 @@ The easiest way to get started with Experimental Mobile Blazor Bindings to build
 
    1. `FirstBlazorHybridApp/FirstBlazorHybridApp.csproj` - this is the shared project that will contain the hybrid UI and logic of your application. That is, it will contain both native UI and web UI all using Razor syntax.
    1. `FirstBlazorHybridApp.Android/FirstBlazorHybridApp.Android.csproj` - this is the "backend" project for targeting Android devices. On Windows or Mac you can run this project to launch the app in the Android Emulator.
-   1. `FirstBlazorHybridApp.iOS/FirstBlazorHybridApp.iOS.csproj` - this is the "backend" project for targeting iOS devices. On Mac you can run this project to launch the app in the iOS Simulator. On Windows you can run it as well if you have a [Mac that is paired](https://docs.microsoft.com/xamarin/ios/get-started/installation/windows/connecting-to-mac/).
+   1. `FirstBlazorHybridApp.iOS/FirstBlazorHybridApp.iOS.csproj` - this is the "backend" project for targeting iOS devices. On Mac you can run this project to launch the app in the iOS Simulator. On Windows you can run it as well if you have a [Mac that is paired](/xamarin/ios/get-started/installation/windows/connecting-to-mac/).
    1. `FirstBlazorHybridApp.Windows/FirstBlazorHybridApp.Windows.csproj` - this is the "backend" project for targeting Windows devices using Windows Presentation Foundation (WPF). On Windows you can run this project to launch the app.
    1. `FirstBlazorHybridApp.macOS/FirstBlazorHybridApp.macOS.csproj` - this is the "backend" project for targeting macOS devices. On Mac you can run this project to launch the app.
 

@@ -77,7 +77,7 @@ Example Razor file snippet:
 
 ## Supported CSS styles
 
-Because the built-in UI components are based on Xamarin.Forms controls, refer to [Styling Xamarin.Forms apps using CSS](https://docs.microsoft.com/xamarin/xamarin-forms/user-interface/styles/css/) to learn more about this feature and which styles can be applied to which components.
+Because the built-in UI components are based on Xamarin.Forms controls, refer to [Styling Xamarin.Forms apps using CSS](/xamarin/xamarin-forms/user-interface/styles/css/) to learn more about this feature and which styles can be applied to which components.
 
 ## Troubleshooting
 
