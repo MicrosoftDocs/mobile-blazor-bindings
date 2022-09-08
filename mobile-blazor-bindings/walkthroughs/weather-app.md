@@ -36,8 +36,8 @@ Rather than write the app from scratch, let's take a look at the key components 
 
      Learn more about the properties here:
 
-        * [ColumnDefinition](https://docs.microsoft.com/dotnet/api/xamarin.forms.columndefinition)
-        * [RowDefinition](https://docs.microsoft.com/dotnet/api/Xamarin.Forms.RowDefinition)
+        * [ColumnDefinition](/dotnet/api/xamarin.forms.columndefinition)
+        * [RowDefinition](/dotnet/api/Xamarin.Forms.RowDefinition)
 
    * The content of the Grid contains several `<GridCell>` components that can have a `Row`, `Column`, `RowSpan`, and `ColumnSpan` property, and contain a single item representing the cells contents. All of these properties are optional. For example, this `GridCell` will be on row index 6, column index 0, and no row/column span:
 
@@ -73,6 +73,6 @@ Rather than write the app from scratch, let's take a look at the key components 
     }
     ```
 
-   To learn more, including how to do async initialization, check out the [Blazor lifecycle methods documentation](https://docs.microsoft.com/aspnet/core/blazor/lifecycle).
+   To learn more, including how to do async initialization, check out the [Blazor lifecycle methods documentation](/aspnet/core/blazor/lifecycle).
 
 1. CSS styles are used to apply common properties by element type or by CSS class name. A [CSS file](https://github.com/xamarin/MobileBlazorBindings/blob/master/samples/MobileBlazorBindingsWeather/MobileBlazorBindingsWeather/WeatherStyles.css) is included as an embedded resource in the shared project (this is the default setting for CSS files). Learn more about using CSS in Mobile Blazor Bindings in the [CSS Styles topic](../ui/css-styles.md).
