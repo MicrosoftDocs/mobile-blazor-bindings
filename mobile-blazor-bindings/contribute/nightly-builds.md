@@ -45,5 +45,5 @@ To browse the feed and see which packages are available, navigate to the [`mobil
 
 To learn more about NuGet configuration settings, refer to these resources:
 
-* [nuget.config reference](https://docs.microsoft.com/nuget/reference/nuget-config-file)
-* [Common NuGet configurations](https://docs.microsoft.com/nuget/consume-packages/configuring-nuget-behavior)
+* [nuget.config reference](/nuget/reference/nuget-config-file)
+* [Common NuGet configurations](/nuget/consume-packages/configuring-nuget-behavior)

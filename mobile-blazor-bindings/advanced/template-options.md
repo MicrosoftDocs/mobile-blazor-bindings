@@ -41,4 +41,4 @@ dotnet new blazorhybrid --CreateAndroidProject false --CreateiOSProject false -o
 
 ## Other `dotnet new` options
 
-For a complete reference of `dotnet new` options, refer to the [dotnet new](https://docs.microsoft.com/dotnet/core/tools/dotnet-new) documentation.
+For a complete reference of `dotnet new` options, refer to the [dotnet new](/dotnet/core/tools/dotnet-new) documentation.
