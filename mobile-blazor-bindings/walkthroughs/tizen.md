@@ -13,7 +13,7 @@ To get started building Mobile Blazor Bindings native and hybrid applications fo
 
 ## Prerequisites
 
-Building Tizen applications requires the Tizen SDK, emulators, and their dependencies. Learn more at the [Tizen .NET documentation](https://docs.microsoft.com/xamarin/xamarin-forms/platform/other/tizen) and how to [install the developer tools](https://developer.tizen.org/development/tizen-extensions-visual-studio-family) for Visual Studio and Visual Studio for Mac.
+Building Tizen applications requires the Tizen SDK, emulators, and their dependencies. Learn more at the [Tizen .NET documentation](/xamarin/xamarin-forms/platform/other/tizen) and how to [install the developer tools](https://developer.tizen.org/development/tizen-extensions-visual-studio-family) for Visual Studio and Visual Studio for Mac.
 
 ## Known issues
 
