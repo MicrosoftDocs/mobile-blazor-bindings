@@ -2,7 +2,7 @@
 
 Welcome to the docs for [Mobile Blazor Bindings](https://github.com/xamarin/MobileBlazorBindings).
 
-You can find the published docs here: [Experimental Mobile Blazor Bindings](https://docs.microsoft.com/mobile-blazor-bindings/).
+You can find the published docs here: [Experimental Mobile Blazor Bindings](https://learn.microsoft.com/mobile-blazor-bindings/).
 
 ## Other resources
 
