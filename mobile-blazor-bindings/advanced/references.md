@@ -2,6 +2,7 @@
 title: 'Blazor and Razor references - Mobile Blazor Bindings'
 ms.topic: article
 ms.prod: aspnet-core
+description: Explore Mobile Blazor Bindings, Advanced References & Razor Syntax for Microsoft's Experimental Project. Learn more now.
 ---
 
 # Blazor and Razor references
