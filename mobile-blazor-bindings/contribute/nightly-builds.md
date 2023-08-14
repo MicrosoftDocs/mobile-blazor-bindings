@@ -2,6 +2,7 @@
 title: 'Use nightly builds - Mobile Blazor Bindings'
 ms.topic: article
 ms.prod: aspnet-core
+description: Discover the latest Mobile Blazor Bindings with Nightly Builds! Access experimental releases, contribute feedback, and enhance your project.
 ---
 
 # Use nightly builds
