@@ -8,7 +8,7 @@ ms.prod: aspnet-core
 
 Experimental Mobile Blazor Bindings enable developers to build native and hybrid mobile apps using C# and .NET for Android, iOS, Windows, macOS, and Tizen using familiar web programming patterns. Experimental Mobile Blazor Bindings uses Razor syntax to define UI components and behaviors of an application. The underlying UI components are based on Xamarin.Forms native UI components and in hybrid apps they are mixed with HTML elements.
 
-Blazor runs on [.NET Standard 2.0](https://docs.microsoft.com/dotnet/standard/net-standard) so you can share your .NET code with most other .NET apps.
+Blazor runs on [.NET Standard 2.0](/dotnet/standard/net-standard) so you can share your .NET code with most other .NET apps.
 
 With Mobile Blazor Bindings it is easy to build a native UI with labels, buttons, and other native UI components:
 

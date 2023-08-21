@@ -99,4 +99,4 @@ The following example shows the syntax of the supported gestures and their respe
 
 ## More information
 
-See the [Xamarin.Forms gestures documentation](https://docs.microsoft.com/xamarin/xamarin-forms/app-fundamentals/gestures/) for more information and examples.
+See the [Xamarin.Forms gestures documentation](/xamarin/xamarin-forms/app-fundamentals/gestures/) for more information and examples.

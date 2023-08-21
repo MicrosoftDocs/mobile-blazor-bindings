@@ -88,4 +88,4 @@ The following example shows a grid with three rows and two columns:
 
 ## More information
 
-The Mobile Blazor Bindings Grid component is based on the Xamarin.Forms grid. More information on the Xamarin.Forms grid is available in the [Xamarin.Forms Grid topic](https://docs.microsoft.com/xamarin/xamarin-forms/user-interface/layouts/grid).
+The Mobile Blazor Bindings Grid component is based on the Xamarin.Forms grid. More information on the Xamarin.Forms grid is available in the [Xamarin.Forms Grid topic](/xamarin/xamarin-forms/user-interface/layouts/grid).

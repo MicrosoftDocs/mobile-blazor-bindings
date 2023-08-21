@@ -43,6 +43,7 @@
       "breadcrumb_path": "/mobile-blazor-bindings/breadcrumb/toc.json",
       "extendBreadcrumb": true,
       "feedback_system": "None",
+      "uhfHeaderId": "MSDocsHeader-DotNet",
       "author": "Eilon",
       "ms.author": "elipton"
     },

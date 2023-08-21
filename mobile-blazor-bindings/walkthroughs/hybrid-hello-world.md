@@ -23,7 +23,7 @@ These are the notable files and folders in the shared project:
 ## Root folder
 
 * `_Imports.razor` - Contains common directives that are applied to all other `.razor` files in this folder and its sub-folders. Sub-folders can have their own `_Imports.razor` files with additional directives. The most common directive type in this file is the `@using` directive, which is used to import a namespace into `.razor` files, exactly the same as a C# `using` statement.
-* `App.cs` - Contains the main UI entry point of the application, represented by a class that derives from the [`Xamarin.Forms.Application`](https://docs.microsoft.com/dotnet/api/xamarin.forms.application) base class. The constructor of this class instantiates a [host](https://docs.microsoft.com/aspnet/core/fundamentals/host/generic-host), adds services to the host, and then uses the host to add a Blazor component named `Main` to the main application page.
+* `App.cs` - Contains the main UI entry point of the application, represented by a class that derives from the [`Xamarin.Forms.Application`](/dotnet/api/xamarin.forms.application) base class. The constructor of this class instantiates a [host](/aspnet/core/fundamentals/host/generic-host), adds services to the host, and then uses the host to add a Blazor component named `Main` to the main application page.
 * `CounterState.cs` - Contains a service that tracks a counter value and offers related APIs. This service is used in both the native and HTML parts of the app.
 * `Main.razor` - Contains the main Blazor UI component of the app. It contains some native UI and also a `BlazorWebView` component that hosts the HTML part of the app.
 
@@ -74,7 +74,7 @@ Learn more about services and DI in the [dependency injection topic](../advanced
 
 ## `WebUI/App.razor` web entry point
 
-This file is the main Blazor entry point for the web part of the application. It uses standard Blazor features, such as the [Router](https://docs.microsoft.com/aspnet/core/blazor/fundamentals/routing). This component determines which Blazor web page to display based on the current route (or show an error if none are found).
+This file is the main Blazor entry point for the web part of the application. It uses standard Blazor features, such as the [Router](/aspnet/core/blazor/fundamentals/routing). This component determines which Blazor web page to display based on the current route (or show an error if none are found).
 
 ## `WebUI/Shared/MainLayout.razor` web layout
 

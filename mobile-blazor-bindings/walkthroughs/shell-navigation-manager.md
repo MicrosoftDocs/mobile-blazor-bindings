@@ -17,7 +17,7 @@ Internally it is implemented using Xamarin.Forms Shell URI Navigation. Shell has
 
 ![Demonstration of Shell Navigation in the Xaminals demo shown on an iPhone.](./media/shell-navigation/shell.gif)
 
-For more details on Shell, check out the [Xamarin Forms documentation](https://docs.microsoft.com/xamarin/xamarin-forms/app-fundamentals/shell/). Details of routing in Blazor are in the [ASP.NET Core documentation](https://docs.microsoft.com/aspnet/core/blazor/fundamentals/routing)
+For more details on Shell, check out the [Xamarin Forms documentation](/xamarin/xamarin-forms/app-fundamentals/shell/). Details of routing in Blazor are in the [ASP.NET Core documentation](/aspnet/core/blazor/fundamentals/routing)
 
 For a sample of ShellNavigationManager see the [Xaminals sample in the Mobile Blazor Bindings repo](https://github.com/xamarin/MobileBlazorBindings/tree/master/samples/MobileBlazorBindingsXaminals).
 
@@ -149,4 +149,4 @@ When the `ContactPage` is navigated to, you can read the value of the `Name` by 
 
 ![Shell navigation with name parameter using a text entry.](./media/shell-navigation/shell-navigation-parameter.gif)
 
-Navigation parameters can be any of several .NET types that can be easily converted into strings, such as `int`, `string`, `Guid`, and `DateTime`. Full details of supported types are available in the [Blazor Routing documentation](https://docs.microsoft.com/aspnet/core/blazor/fundamentals/routing#route-constraints)
+Navigation parameters can be any of several .NET types that can be easily converted into strings, such as `int`, `string`, `Guid`, and `DateTime`. Full details of supported types are available in the [Blazor Routing documentation](/aspnet/core/blazor/fundamentals/routing#route-constraints)

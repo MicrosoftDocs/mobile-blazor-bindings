@@ -69,4 +69,4 @@ The various controls and elements of each layer often use the same type names, b
 
 ## More information
 
-Learn more about Blazor component references in the [Build reusable UI components with Blazor](https://docs.microsoft.com/dotnet/architecture/blazor-for-web-forms-developers/components#capture-component-references) topic in the Blazor documentation.
+Learn more about Blazor component references in the [Build reusable UI components with Blazor](/dotnet/architecture/blazor-for-web-forms-developers/components#capture-component-references) topic in the Blazor documentation.
