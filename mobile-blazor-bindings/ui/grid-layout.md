@@ -1,7 +1,7 @@
 ---
 title: 'Grid Layout - Mobile Blazor Bindings'
 ms.topic: article
-ms.prod: aspnet-core
+ms.service: aspnet-core
 ---
 
 # Grid Layout

@@ -1,7 +1,7 @@
 ---
 title: 'Dependency Injection - Mobile Blazor Bindings'
 ms.topic: article
-ms.prod: aspnet-core
+ms.service: aspnet-core
 ---
 
 # Dependency Injection
