@@ -2,7 +2,7 @@
 title: 'Using SkiaSharp with Mobile Blazor Bindings'
 author: lachlanwgordon
 ms.topic: article
-ms.prod: aspnet-core
+ms.service: aspnet-core
 ---
 
 # Skia Sharp

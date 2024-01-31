@@ -1,7 +1,7 @@
 ---
 title: 'Creating an app with Mobile Blazor Bindings - Mobile Blazor Bindings'
 ms.topic: article
-ms.prod: aspnet-core
+ms.service: aspnet-core
 ---
 
 # Creating an app with Experimental Mobile Blazor Bindings
