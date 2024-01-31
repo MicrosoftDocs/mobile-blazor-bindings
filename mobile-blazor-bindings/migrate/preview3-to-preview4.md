@@ -1,7 +1,7 @@
 ---
 title: 'Migrate Mobile Blazor Bindings From Preview 3 to Preview 4 - Mobile Blazor Bindings'
 ms.topic: article
-ms.prod: aspnet-core
+ms.service: aspnet-core
 ---
 
 # Migrate Mobile Blazor Bindings From Preview 3 to Preview 4

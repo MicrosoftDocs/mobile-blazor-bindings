@@ -1,7 +1,7 @@
 ---
 title: 'Advanced template options - Mobile Blazor Bindings'
 ms.topic: article
-ms.prod: aspnet-core
+ms.service: aspnet-core
 ---
 
 # Advanced template options

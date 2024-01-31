@@ -1,7 +1,7 @@
 ---
 title: 'Walkthrough: Build your first hybrid app with Mobile Blazor Bindings - Mobile Blazor Bindings'
 ms.topic: tutorial
-ms.prod: aspnet-core
+ms.service: aspnet-core
 ---
 
 # Build your first hybrid app

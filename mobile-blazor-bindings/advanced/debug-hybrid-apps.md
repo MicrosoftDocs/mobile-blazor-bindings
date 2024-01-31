@@ -1,7 +1,7 @@
 ---
 title: 'Debug hybrid apps - Mobile Blazor Bindings'
 ms.topic: article
-ms.prod: aspnet-core
+ms.service: aspnet-core
 description: Master Debugging Hybrid Apps with Mobile Blazor Bindings on Microsoft's platform. Learn advanced techniques for .NET & Web UI debugging.
 ---
 

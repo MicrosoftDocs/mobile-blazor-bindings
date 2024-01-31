@@ -1,7 +1,7 @@
 ---
 title: 'Walkthrough: Todo App - Mobile Blazor Bindings'
 ms.topic: tutorial
-ms.prod: aspnet-core
+ms.service: aspnet-core
 ---
 
 # Todo App
