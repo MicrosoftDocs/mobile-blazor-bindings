@@ -1,4 +1,10 @@
-# Mobile Blazor Bindings docs
+# Mobile Blazor Bindings docs - ARCHIVE
+
+Please see https://github.com/dotnet/MobileBlazorBindings/issues/480 for more information.
+
+---
+
+---
 
 Welcome to the docs for [Mobile Blazor Bindings](https://github.com/xamarin/MobileBlazorBindings).
 
