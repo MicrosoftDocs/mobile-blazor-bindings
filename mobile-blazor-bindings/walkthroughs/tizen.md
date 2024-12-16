@@ -1,5 +1,6 @@
 ---
 title: 'Experimental Tizen Support for Mobile Blazor Bindings'
+ms.topic: article
 ---
 
 # Experimental Tizen Support
