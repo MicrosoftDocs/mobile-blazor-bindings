@@ -1,3 +1,11 @@
-- name: Docs
+- name: Learn
   tocHref: /
   topicHref: /
+  items:
+  - name: Previous Versions
+    tocHref:  /previous-versions/
+    topicHref: /previous-versions/
+    items:
+    - name: .NET
+      tocHref: /previous-versions/dotnet/
+      topicHref: /previous-versions/dotnet/index
